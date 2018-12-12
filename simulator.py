@@ -56,5 +56,5 @@ for device in devices:
     device.thread.join()
 
 for device in devices:
-    logging.debug('Device %s sent %s bytes in %.4fs consuming %.4f mWs' %(device.id, device.generated_traffic, device.transmission_time, device.energy_consumption))
+    logging.info('Device %s sent %s bytes in %.4fs consuming %.4f mWs' %(device.id, device.generated_traffic, device.transmission_time, device.energy_consumption))
 logging.info('Simulation ended')

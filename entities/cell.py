@@ -21,4 +21,4 @@ class Cell:
                 logging.error("Cannot exists two devices with the same id")
                 exit(409)
         self.devices.append(device)
-        self.bands[int(device.distance*len(self.bands)/self.size)] += 1
+        self.bands[int(device.distance*len(self.bands)/self.size - 0.001)] += 1
