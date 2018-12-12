@@ -1,0 +1,26 @@
+task:
+   location: configurations/task.py
+   occurrences: 3
+scenario:
+  max_packet_size: 576
+  time: 60                                                                      #Time expressed in minutes
+  devices:
+    number: 10
+  application_layer:
+    protocol: 'http'
+  transport_layer:
+    protocol: 'tcp'
+  network_layer:
+    protocol: 'ip'
+  link_layer:
+    protocol: 'nb_iot'
+http:
+  authentication: true
+tcp:
+  standard_header: 20
+  keep_alive: false
+  keep_alive_ack: 10                                                            #Time expressed in minutes
+ip:
+  standard_header: 20
+nb_iot:
+  cell_size: 1000
