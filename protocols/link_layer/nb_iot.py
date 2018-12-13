@@ -4,11 +4,15 @@ import math
 
 class nb_iot:
     def __init__(self, f):
+        self.a = 0.1
+        self.attenuation_sensitivity = -120
+        self.transmission_power = 23
         self.COLLISION_PROBABILITY = 0
-        self.ATTENUATION_PROBABILITY = 0
+        self.PER_PROBABILITY = 0
         self.send = f
         self.subcarriers = 48
         self.carrier_bandwidth = 180/self.subcarriers #kHz
+        self.count = 0
         self.subcarriers_per_bands = {
                 0: 16,
                 1: 16,
@@ -23,11 +27,15 @@ class nb_iot:
     def __call__(self, device, pdu = 0):
         scenario = Scenario()
         cell = scenario.getattr('cell')
-        self.COLLISION_PROBABILITY = (1/64)*(1 - (63/64)**scenario.getattr('num_devices'))
+        self.COLLISION_PROBABILITY = (1/self.subcarriers)*(1 - ((self.subcarriers-1)/self.subcarriers)**scenario.getattr('num_devices'))
+        attenuation = (125.2 + 36.3 * math.log10(device.distance/1000))
+        M = (self.transmission_power - attenuation) - self.attenuation_sensitivity
+        self.PER_PROBABILITY = math.exp(-self.a*M)
+        #print("PER: %s \nM: %s\nDistance: %s -----" %(self.PER_PROBABILITY, M, device.distance))
         #choose a band according to distance from the antenna.
         band = int(device.distance*len(self.bands)/scenario.getattr('config')['nb_iot']['cell_size'])
         self.rapc(device, band, cell)
-        p = self.COLLISION_PROBABILITY + self.ATTENUATION_PROBABILITY
+        p = self.COLLISION_PROBABILITY + self.PER_PROBABILITY
         kbps = choice(self.bands[band])*self.carrier_bandwidth
         ec = self.compute_energy_cost(pdu, kbps)
         if random() < p:
@@ -37,12 +45,15 @@ class nb_iot:
     def rapc(self, device, band, cell):
         traffic = (2^(band)*4*5)/8
         transmission_time = choice([1,2,3])/1000
-        energy_consumption = self.dbm_to_mw(23) * transmission_time
-        p = math.exp(-cell.bands[band]/self.subcarriers_per_bands[band])
-        while random() > p:
+        energy_consumption = self.dbm_to_mw(self.transmission_power) * transmission_time
+        # p = math.exp(-cell.bands[band]/self.subcarriers_per_bands[band])
+        p = self.COLLISION_PROBABILITY
+        while random() < p:
+            self.count += 1
             device.generated_traffic += traffic
             device.transmission_time += transmission_time
             device.energy_consumption += energy_consumption
+            print(self.count)
         device.generated_traffic += traffic
         device.transmission_time += transmission_time
         device.energy_consumption += energy_consumption
@@ -51,6 +62,6 @@ class nb_iot:
         return 10**(value/10)
 
     def compute_energy_cost(self, value, kbps):
-        prx = self.dbm_to_mw(23)
+        prx = self.dbm_to_mw(self.transmission_power)
         vdl = kbps*1000
         return (prx*value/vdl)

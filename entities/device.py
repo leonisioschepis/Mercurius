@@ -32,7 +32,7 @@ class Device:
     def __init__(self, max_distance, f, auth = False):
         self.id = uuid.uuid1()
         self.auth = auth
-        self.distance = randint(0,max_distance)
+        self.distance = randint(10,max_distance-1)
         self.task = f
         self.generated_traffic = 0
         self.transmission_time = 0
