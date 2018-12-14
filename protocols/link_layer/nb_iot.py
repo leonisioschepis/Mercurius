@@ -31,7 +31,6 @@ class nb_iot:
         attenuation = (125.2 + 36.3 * math.log10(device.distance/1000))
         M = (self.transmission_power - attenuation) - self.attenuation_sensitivity
         self.PER_PROBABILITY = math.exp(-self.a*M)
-        #print("PER: %s \nM: %s\nDistance: %s -----" %(self.PER_PROBABILITY, M, device.distance))
         #choose a band according to distance from the antenna.
         band = int(device.distance*len(self.bands)/scenario.getattr('config')['nb_iot']['cell_size'])
         self.rapc(device, band, cell)
@@ -46,14 +45,12 @@ class nb_iot:
         traffic = (2^(band)*4*5)/8
         transmission_time = choice([1,2,3])/1000
         energy_consumption = self.dbm_to_mw(self.transmission_power) * transmission_time
-        # p = math.exp(-cell.bands[band]/self.subcarriers_per_bands[band])
-        p = self.COLLISION_PROBABILITY
+        p = (len(cell.devices) - 1)/self.subcarriers**2
         while random() < p:
             self.count += 1
             device.generated_traffic += traffic
             device.transmission_time += transmission_time
             device.energy_consumption += energy_consumption
-            print(self.count)
         device.generated_traffic += traffic
         device.transmission_time += transmission_time
         device.energy_consumption += energy_consumption
