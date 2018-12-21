@@ -22,7 +22,7 @@ class WorkingDevice (threading.Thread):
         transport_layer_class = getattr(transport_layer_module, transport_layer_name)
         transport_layer = transport_layer_class(self.device)
         for i in range(scenario.getattr('config')['task']['occurrences']):
-            task_result = self.device.task()
+            task_result = self.device.task(self.device.id)
             for packet in task_result:
                 application_layer = application_layer_class(packet, self.device.auth)
                 traffic = application_layer.get_cost()

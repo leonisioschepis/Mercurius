@@ -1,6 +1,6 @@
 task:
    location: configurations/task.py
-   occurrences: 5
+   occurrences: 1
 scenario:
   max_packet_size: 576
   time: 60                                                                      #Time expressed in minutes
