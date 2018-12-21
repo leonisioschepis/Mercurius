@@ -1,4 +1,4 @@
-import logging, uuid, threading, time
+import logging, uuid, threading, time, math
 from entities.scenario import Scenario
 from protocols.link_layer.nb_iot import nb_iot
 from random import randint
@@ -32,7 +32,11 @@ class Device:
     def __init__(self, max_distance, f, auth = False):
         self.id = uuid.uuid1()
         self.auth = auth
-        self.distance = randint(10,max_distance-1)
+        self.coordinates = (randint(-max_distance + 1 , max_distance - 1), randint(-max_distance + 1 , max_distance - 1))
+        self.distance = math.sqrt((self.coordinates[0]**2)+(self.coordinates[1]**2))
+        while self.distance > max_distance - 1:
+            self.coordinates = (randint(-max_distance + 1 , max_distance - 1), randint(-max_distance + 1 , max_distance - 1))
+            self.distance = math.sqrt((self.coordinates[0]**2)+(self.coordinates[1]**2))
         self.task = f
         self.generated_traffic = 0
         self.transmission_time = 0

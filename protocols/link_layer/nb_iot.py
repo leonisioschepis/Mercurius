@@ -33,6 +33,8 @@ class nb_iot:
         self.PER_PROBABILITY = math.exp(-self.a*M)
         #choose a band according to distance from the antenna.
         band = int(device.distance*len(self.bands)/scenario.getattr('config')['nb_iot']['cell_size'])
+        if band > 2:
+            return
         self.rapc(device, band, cell)
         p = self.COLLISION_PROBABILITY + self.PER_PROBABILITY
         kbps = choice(self.bands[band])*self.carrier_bandwidth
@@ -42,18 +44,20 @@ class nb_iot:
         self.send(device, kbps, ec, pdu = pdu)
 
     def rapc(self, device, band, cell):
+        n = 2
         traffic = (2^(band)*4*5)/8
         transmission_time = choice([1,2,3])/1000
         energy_consumption = self.dbm_to_mw(self.transmission_power) * transmission_time
-        p = (len(cell.devices) - 1)/self.subcarriers**2
-        while random() < p:
-            self.count += 1
-            device.generated_traffic += traffic
-            device.transmission_time += transmission_time
-            device.energy_consumption += energy_consumption
         device.generated_traffic += traffic
         device.transmission_time += transmission_time
         device.energy_consumption += energy_consumption
+        p = 1 - ( 1 - 1/self.subcarriers**n)**(len(cell.devices) - 1)
+        while random() < p:
+            n += 1
+            p = 1 - ( 1 - 1/self.subcarriers**n)**(len(cell.devices) - 1)
+            device.generated_traffic += traffic
+            device.transmission_time += transmission_time
+            device.energy_consumption += energy_consumption
 
     def dbm_to_mw(self, value):
         return 10**(value/10)

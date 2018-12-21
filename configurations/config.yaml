@@ -5,7 +5,7 @@ scenario:
   max_packet_size: 576
   time: 60                                                                      #Time expressed in minutes
   devices:
-    number: 1000
+    number: 100
   application_layer:
     protocol: 'http'
   transport_layer:
@@ -23,4 +23,4 @@ tcp:
 ip:
   standard_header: 20
 nb_iot:
-  cell_size: 1000
+  cell_size: 3000
