@@ -23,9 +23,10 @@ class WorkingDevice (threading.Thread):
         transport_layer = transport_layer_class(self.device)
         for i in range(scenario.getattr('config')['task']['occurrences']):
             task_result = self.device.task()
-            application_layer = application_layer_class(task_result, self.device.auth)
-            traffic = application_layer.get_cost()
-            transport_layer.send(self.device, traffic)
+            for packet in task_result:
+                application_layer = application_layer_class(packet, self.device.auth)
+                traffic = application_layer.get_cost()
+                transport_layer.send(self.device, traffic)
         logging.info("Stopping device "  + str(getattr(self.device,'id')))
 
 class Device:

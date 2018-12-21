@@ -1,407 +1,407 @@
-2018-12-21 15:46:50,578 [simulator.py] [INFO ]  Loading configurations
-2018-12-21 15:46:50,583 [simulator.py] [DEBUG]  Number of devices: 100
-2018-12-21 15:46:50,583 [simulator.py] [DEBUG]  Stack: http | tcp | ip | nb_iot
-2018-12-21 15:46:50,584 [cell.py     ] [INFO ]  Cell 3ff0871a-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,584 [device.py   ] [INFO ]  Device 3ff0871b-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,584 [device.py   ] [INFO ]  Device 3ff0871c-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,584 [device.py   ] [INFO ]  Device 3ff0871d-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,585 [device.py   ] [INFO ]  Device 3ff0871e-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,585 [device.py   ] [INFO ]  Device 3ff0871f-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,585 [device.py   ] [INFO ]  Device 3ff08720-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,585 [device.py   ] [INFO ]  Device 3ff08721-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,585 [device.py   ] [INFO ]  Device 3ff08722-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,586 [device.py   ] [INFO ]  Device 3ff08723-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,586 [device.py   ] [INFO ]  Device 3ff08724-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,586 [device.py   ] [INFO ]  Device 3ff08725-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,586 [device.py   ] [INFO ]  Device 3ff08726-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,587 [device.py   ] [INFO ]  Device 3ff08727-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,587 [device.py   ] [INFO ]  Device 3ff08728-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,587 [device.py   ] [INFO ]  Device 3ff08729-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,587 [device.py   ] [INFO ]  Device 3ff0872a-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,587 [device.py   ] [INFO ]  Device 3ff0872b-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,588 [device.py   ] [INFO ]  Device 3ff0872c-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,588 [device.py   ] [INFO ]  Device 3ff0872d-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,588 [device.py   ] [INFO ]  Device 3ff0872e-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,588 [device.py   ] [INFO ]  Device 3ff0872f-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,589 [device.py   ] [INFO ]  Device 3ff08730-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,589 [device.py   ] [INFO ]  Device 3ff08731-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,589 [device.py   ] [INFO ]  Device 3ff08732-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,589 [device.py   ] [INFO ]  Device 3ff08733-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,590 [device.py   ] [INFO ]  Device 3ff08734-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,590 [device.py   ] [INFO ]  Device 3ff08735-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,590 [device.py   ] [INFO ]  Device 3ff08736-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,590 [device.py   ] [INFO ]  Device 3ff08737-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,591 [device.py   ] [INFO ]  Device 3ff08738-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,591 [device.py   ] [INFO ]  Device 3ff08739-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,591 [device.py   ] [INFO ]  Device 3ff0873a-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,591 [device.py   ] [INFO ]  Device 3ff0873b-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,591 [device.py   ] [INFO ]  Device 3ff0873c-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,592 [device.py   ] [INFO ]  Device 3ff0873d-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,592 [device.py   ] [INFO ]  Device 3ff0873e-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,592 [device.py   ] [INFO ]  Device 3ff0873f-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,593 [device.py   ] [INFO ]  Device 3ff08740-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,593 [device.py   ] [INFO ]  Device 3ff08741-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,593 [device.py   ] [INFO ]  Device 3ff08742-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,593 [device.py   ] [INFO ]  Device 3ff08743-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,594 [device.py   ] [INFO ]  Device 3ff08744-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,594 [device.py   ] [INFO ]  Device 3ff08745-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,594 [device.py   ] [INFO ]  Device 3ff08746-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,594 [device.py   ] [INFO ]  Device 3ff08747-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,595 [device.py   ] [INFO ]  Device 3ff08748-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,595 [device.py   ] [INFO ]  Device 3ff08749-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,595 [device.py   ] [INFO ]  Device 3ff0874a-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,595 [device.py   ] [INFO ]  Device 3ff0874b-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,596 [device.py   ] [INFO ]  Device 3ff0874c-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,596 [device.py   ] [INFO ]  Device 3ff0874d-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,596 [device.py   ] [INFO ]  Device 3ff0874e-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,596 [device.py   ] [INFO ]  Device 3ff0874f-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,597 [device.py   ] [INFO ]  Device 3ff08750-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,597 [device.py   ] [INFO ]  Device 3ff08751-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,597 [device.py   ] [INFO ]  Device 3ff08752-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,597 [device.py   ] [INFO ]  Device 3ff08753-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,598 [device.py   ] [INFO ]  Device 3ff08754-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,598 [device.py   ] [INFO ]  Device 3ff08755-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,598 [device.py   ] [INFO ]  Device 3ff08756-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,599 [device.py   ] [INFO ]  Device 3ff08757-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,599 [device.py   ] [INFO ]  Device 3ff08758-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,599 [device.py   ] [INFO ]  Device 3ff08759-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,599 [device.py   ] [INFO ]  Device 3ff0875a-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,600 [device.py   ] [INFO ]  Device 3ff0875b-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,600 [device.py   ] [INFO ]  Device 3ff0875c-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,600 [device.py   ] [INFO ]  Device 3ff0875d-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,601 [device.py   ] [INFO ]  Device 3ff0875e-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,601 [device.py   ] [INFO ]  Device 3ff0875f-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,601 [device.py   ] [INFO ]  Device 3ff08760-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,601 [device.py   ] [INFO ]  Device 3ff08761-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,602 [device.py   ] [INFO ]  Device 3ff08762-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,602 [device.py   ] [INFO ]  Device 3ff08763-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,602 [device.py   ] [INFO ]  Device 3ff08764-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,603 [device.py   ] [INFO ]  Device 3ff08765-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,603 [device.py   ] [INFO ]  Device 3ff08766-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,603 [device.py   ] [INFO ]  Device 3ff08767-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,603 [device.py   ] [INFO ]  Device 3ff08768-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,604 [device.py   ] [INFO ]  Device 3ff08769-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,604 [device.py   ] [INFO ]  Device 3ff0876a-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,604 [device.py   ] [INFO ]  Device 3ff0876b-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,605 [device.py   ] [INFO ]  Device 3ff0876c-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,605 [device.py   ] [INFO ]  Device 3ff0876d-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,605 [device.py   ] [INFO ]  Device 3ff0876e-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,606 [device.py   ] [INFO ]  Device 3ff0876f-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,606 [device.py   ] [INFO ]  Device 3ff08770-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,606 [device.py   ] [INFO ]  Device 3ff08771-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,607 [device.py   ] [INFO ]  Device 3ff08772-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,607 [device.py   ] [INFO ]  Device 3ff08773-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,607 [device.py   ] [INFO ]  Device 3ff08774-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,608 [device.py   ] [INFO ]  Device 3ff08775-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,608 [device.py   ] [INFO ]  Device 3ff08776-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,608 [device.py   ] [INFO ]  Device 3ff08777-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,609 [device.py   ] [INFO ]  Device 3ff08778-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,609 [device.py   ] [INFO ]  Device 3ff08779-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,609 [device.py   ] [INFO ]  Device 3ff0877a-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,610 [device.py   ] [INFO ]  Device 3ff0877b-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,610 [device.py   ] [INFO ]  Device 3ff0877c-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,610 [device.py   ] [INFO ]  Device 3ff0877d-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,611 [device.py   ] [INFO ]  Device 3ff0877e-052f-11e9-8a72-4c72b9c8f180 created
-2018-12-21 15:46:50,611 [simulator.py] [DEBUG]  Cell 3ff0871a-052f-11e9-8a72-4c72b9c8f180, size 3000 with 100 devices
-2018-12-21 15:46:50,612 [device.py   ] [INFO ]  Starting device 3ff0871b-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,615 [device.py   ] [INFO ]  Stopping device 3ff0871b-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,616 [device.py   ] [INFO ]  Starting device 3ff0871c-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,617 [device.py   ] [INFO ]  Stopping device 3ff0871c-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,617 [device.py   ] [INFO ]  Starting device 3ff0871d-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,617 [device.py   ] [INFO ]  Starting device 3ff0871e-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,618 [device.py   ] [INFO ]  Stopping device 3ff0871d-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,619 [device.py   ] [INFO ]  Starting device 3ff0871f-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,620 [device.py   ] [INFO ]  Stopping device 3ff0871e-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,620 [device.py   ] [INFO ]  Starting device 3ff08720-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,620 [device.py   ] [INFO ]  Starting device 3ff08721-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,621 [device.py   ] [INFO ]  Starting device 3ff08722-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,622 [device.py   ] [INFO ]  Stopping device 3ff0871f-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,622 [device.py   ] [INFO ]  Starting device 3ff08723-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,623 [device.py   ] [INFO ]  Starting device 3ff08724-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,624 [device.py   ] [INFO ]  Stopping device 3ff08720-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,624 [device.py   ] [INFO ]  Starting device 3ff08725-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,625 [device.py   ] [INFO ]  Stopping device 3ff08721-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,626 [device.py   ] [INFO ]  Starting device 3ff08726-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,627 [device.py   ] [INFO ]  Stopping device 3ff08722-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,632 [device.py   ] [INFO ]  Starting device 3ff0872b-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,627 [device.py   ] [INFO ]  Starting device 3ff08728-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,629 [device.py   ] [INFO ]  Stopping device 3ff08723-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,629 [device.py   ] [INFO ]  Starting device 3ff08729-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,630 [device.py   ] [INFO ]  Stopping device 3ff08724-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,630 [device.py   ] [INFO ]  Starting device 3ff0872a-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,632 [device.py   ] [INFO ]  Stopping device 3ff08725-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,627 [device.py   ] [INFO ]  Starting device 3ff08727-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,633 [device.py   ] [INFO ]  Starting device 3ff0872c-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,634 [device.py   ] [INFO ]  Stopping device 3ff08726-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,634 [device.py   ] [INFO ]  Starting device 3ff0872d-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,635 [device.py   ] [INFO ]  Starting device 3ff0872e-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,636 [device.py   ] [INFO ]  Stopping device 3ff0872b-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,636 [device.py   ] [INFO ]  Starting device 3ff0872f-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,638 [device.py   ] [INFO ]  Stopping device 3ff08728-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,638 [device.py   ] [INFO ]  Starting device 3ff08730-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,638 [device.py   ] [INFO ]  Starting device 3ff08731-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,638 [device.py   ] [INFO ]  Starting device 3ff08732-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,640 [device.py   ] [INFO ]  Stopping device 3ff08729-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,640 [device.py   ] [INFO ]  Starting device 3ff08733-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,640 [device.py   ] [INFO ]  Starting device 3ff08734-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,640 [device.py   ] [INFO ]  Starting device 3ff08735-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,641 [device.py   ] [INFO ]  Stopping device 3ff0872a-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,642 [device.py   ] [INFO ]  Starting device 3ff08736-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,643 [device.py   ] [INFO ]  Stopping device 3ff08727-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,643 [device.py   ] [INFO ]  Starting device 3ff08737-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,643 [device.py   ] [INFO ]  Starting device 3ff08738-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,644 [device.py   ] [INFO ]  Stopping device 3ff0872c-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,645 [device.py   ] [INFO ]  Starting device 3ff08739-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,650 [device.py   ] [INFO ]  Stopping device 3ff0872d-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,650 [device.py   ] [INFO ]  Starting device 3ff0873a-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,651 [device.py   ] [INFO ]  Stopping device 3ff0872e-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,652 [device.py   ] [INFO ]  Starting device 3ff0873b-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,655 [device.py   ] [INFO ]  Stopping device 3ff0872f-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,655 [device.py   ] [INFO ]  Starting device 3ff0873c-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,656 [device.py   ] [INFO ]  Starting device 3ff0873d-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,658 [device.py   ] [INFO ]  Stopping device 3ff08730-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,660 [device.py   ] [INFO ]  Stopping device 3ff08731-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,661 [device.py   ] [INFO ]  Starting device 3ff0873e-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,662 [device.py   ] [INFO ]  Stopping device 3ff08732-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,662 [device.py   ] [INFO ]  Starting device 3ff0873f-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,664 [device.py   ] [INFO ]  Stopping device 3ff08733-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,664 [device.py   ] [INFO ]  Starting device 3ff08740-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,665 [device.py   ] [INFO ]  Stopping device 3ff08734-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,665 [device.py   ] [INFO ]  Starting device 3ff08741-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,667 [device.py   ] [INFO ]  Stopping device 3ff08735-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,667 [device.py   ] [INFO ]  Starting device 3ff08742-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,667 [device.py   ] [INFO ]  Starting device 3ff08743-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,668 [device.py   ] [INFO ]  Stopping device 3ff08736-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,669 [device.py   ] [INFO ]  Starting device 3ff08744-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,670 [device.py   ] [INFO ]  Stopping device 3ff08737-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,670 [device.py   ] [INFO ]  Starting device 3ff08745-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,672 [device.py   ] [INFO ]  Stopping device 3ff08738-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,672 [device.py   ] [INFO ]  Starting device 3ff08746-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,674 [device.py   ] [INFO ]  Stopping device 3ff08739-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,674 [device.py   ] [INFO ]  Starting device 3ff08747-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,674 [device.py   ] [INFO ]  Starting device 3ff08748-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,675 [device.py   ] [INFO ]  Stopping device 3ff0873a-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,675 [device.py   ] [INFO ]  Starting device 3ff08749-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,676 [device.py   ] [INFO ]  Starting device 3ff0874a-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,677 [device.py   ] [INFO ]  Stopping device 3ff0873b-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,677 [device.py   ] [INFO ]  Starting device 3ff0874b-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,679 [device.py   ] [INFO ]  Stopping device 3ff0873c-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,679 [device.py   ] [INFO ]  Starting device 3ff0874c-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,680 [device.py   ] [INFO ]  Stopping device 3ff0873d-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,680 [device.py   ] [INFO ]  Starting device 3ff0874d-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,700 [device.py   ] [INFO ]  Stopping device 3ff0874d-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,681 [device.py   ] [INFO ]  Starting device 3ff0874f-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,682 [device.py   ] [INFO ]  Stopping device 3ff0873e-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,683 [device.py   ] [INFO ]  Starting device 3ff08750-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,683 [device.py   ] [INFO ]  Starting device 3ff08751-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,684 [device.py   ] [INFO ]  Starting device 3ff08752-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,685 [device.py   ] [INFO ]  Stopping device 3ff0873f-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,685 [device.py   ] [INFO ]  Starting device 3ff08753-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,685 [device.py   ] [INFO ]  Starting device 3ff08754-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,686 [device.py   ] [INFO ]  Stopping device 3ff08740-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,687 [device.py   ] [INFO ]  Starting device 3ff08755-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,687 [device.py   ] [INFO ]  Starting device 3ff08756-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,688 [device.py   ] [INFO ]  Stopping device 3ff08741-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,689 [device.py   ] [INFO ]  Starting device 3ff08757-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,691 [device.py   ] [INFO ]  Stopping device 3ff08742-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,694 [device.py   ] [INFO ]  Stopping device 3ff08743-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,694 [device.py   ] [INFO ]  Starting device 3ff08758-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,694 [device.py   ] [INFO ]  Starting device 3ff08759-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,695 [device.py   ] [INFO ]  Starting device 3ff0875a-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,695 [device.py   ] [INFO ]  Starting device 3ff0875b-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,696 [device.py   ] [INFO ]  Stopping device 3ff08744-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,697 [device.py   ] [INFO ]  Starting device 3ff0875c-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,699 [device.py   ] [INFO ]  Stopping device 3ff08745-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,681 [device.py   ] [INFO ]  Starting device 3ff0874e-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,702 [device.py   ] [INFO ]  Stopping device 3ff08748-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,702 [device.py   ] [INFO ]  Starting device 3ff0875d-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,702 [device.py   ] [INFO ]  Starting device 3ff0875e-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,733 [device.py   ] [INFO ]  Starting device 3ff08775-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,704 [device.py   ] [INFO ]  Starting device 3ff0875f-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,705 [device.py   ] [INFO ]  Stopping device 3ff0874a-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,706 [device.py   ] [INFO ]  Starting device 3ff08760-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,706 [device.py   ] [INFO ]  Starting device 3ff08761-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,707 [device.py   ] [INFO ]  Stopping device 3ff0874b-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,707 [device.py   ] [INFO ]  Starting device 3ff08762-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,708 [device.py   ] [INFO ]  Starting device 3ff08763-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,709 [device.py   ] [INFO ]  Stopping device 3ff0874c-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,709 [device.py   ] [INFO ]  Starting device 3ff08764-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,712 [device.py   ] [INFO ]  Stopping device 3ff08746-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,712 [device.py   ] [INFO ]  Starting device 3ff08765-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,713 [device.py   ] [INFO ]  Stopping device 3ff08747-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,713 [device.py   ] [INFO ]  Starting device 3ff08766-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,715 [device.py   ] [INFO ]  Stopping device 3ff0874f-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,715 [device.py   ] [INFO ]  Starting device 3ff08767-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,717 [device.py   ] [INFO ]  Stopping device 3ff08750-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,718 [device.py   ] [INFO ]  Stopping device 3ff08751-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,718 [device.py   ] [INFO ]  Starting device 3ff08768-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,738 [device.py   ] [INFO ]  Stopping device 3ff0875b-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,720 [device.py   ] [INFO ]  Starting device 3ff08769-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,721 [device.py   ] [INFO ]  Stopping device 3ff08753-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,722 [device.py   ] [INFO ]  Stopping device 3ff08754-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,723 [device.py   ] [INFO ]  Starting device 3ff0876a-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,724 [device.py   ] [INFO ]  Stopping device 3ff08755-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,724 [device.py   ] [INFO ]  Starting device 3ff0876b-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,726 [device.py   ] [INFO ]  Stopping device 3ff08756-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,726 [device.py   ] [INFO ]  Starting device 3ff0876c-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,726 [device.py   ] [INFO ]  Starting device 3ff0876d-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,726 [device.py   ] [INFO ]  Starting device 3ff0876e-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,728 [device.py   ] [INFO ]  Stopping device 3ff08757-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,728 [device.py   ] [INFO ]  Starting device 3ff0876f-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,730 [device.py   ] [INFO ]  Stopping device 3ff08758-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,730 [device.py   ] [INFO ]  Starting device 3ff08770-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,731 [device.py   ] [INFO ]  Stopping device 3ff08759-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,731 [device.py   ] [INFO ]  Starting device 3ff08771-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,733 [device.py   ] [INFO ]  Stopping device 3ff0875a-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,733 [device.py   ] [INFO ]  Starting device 3ff08772-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,733 [device.py   ] [INFO ]  Starting device 3ff08773-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,733 [device.py   ] [INFO ]  Starting device 3ff08774-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,734 [device.py   ] [INFO ]  Starting device 3ff08776-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,734 [device.py   ] [INFO ]  Starting device 3ff08777-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,734 [device.py   ] [INFO ]  Starting device 3ff08778-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,734 [device.py   ] [INFO ]  Starting device 3ff08779-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,734 [device.py   ] [INFO ]  Starting device 3ff0877a-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,735 [device.py   ] [INFO ]  Starting device 3ff0877b-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,735 [device.py   ] [INFO ]  Starting device 3ff0877c-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,735 [device.py   ] [INFO ]  Starting device 3ff0877d-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,735 [device.py   ] [INFO ]  Starting device 3ff0877e-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,720 [device.py   ] [INFO ]  Stopping device 3ff08752-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,704 [device.py   ] [INFO ]  Stopping device 3ff08749-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,739 [device.py   ] [INFO ]  Stopping device 3ff0875c-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,743 [device.py   ] [INFO ]  Stopping device 3ff0875d-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,744 [device.py   ] [INFO ]  Stopping device 3ff0875e-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,747 [device.py   ] [INFO ]  Stopping device 3ff08775-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,748 [device.py   ] [INFO ]  Stopping device 3ff0875f-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,750 [device.py   ] [INFO ]  Stopping device 3ff08760-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,752 [device.py   ] [INFO ]  Stopping device 3ff08761-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,754 [device.py   ] [INFO ]  Stopping device 3ff08762-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,755 [device.py   ] [INFO ]  Stopping device 3ff08763-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,756 [device.py   ] [INFO ]  Stopping device 3ff08764-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,758 [device.py   ] [INFO ]  Stopping device 3ff08765-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,760 [device.py   ] [INFO ]  Stopping device 3ff08766-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,761 [device.py   ] [INFO ]  Stopping device 3ff08767-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,763 [device.py   ] [INFO ]  Stopping device 3ff08768-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,765 [device.py   ] [INFO ]  Stopping device 3ff08769-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,767 [device.py   ] [INFO ]  Stopping device 3ff0876a-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,769 [device.py   ] [INFO ]  Stopping device 3ff0874e-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,771 [device.py   ] [INFO ]  Stopping device 3ff0876b-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,772 [device.py   ] [INFO ]  Stopping device 3ff0876c-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,773 [device.py   ] [INFO ]  Stopping device 3ff0876d-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,775 [device.py   ] [INFO ]  Stopping device 3ff0876e-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,779 [device.py   ] [INFO ]  Stopping device 3ff0876f-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,780 [device.py   ] [INFO ]  Stopping device 3ff08770-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,783 [device.py   ] [INFO ]  Stopping device 3ff08771-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,785 [device.py   ] [INFO ]  Stopping device 3ff08772-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,787 [device.py   ] [INFO ]  Stopping device 3ff08773-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,790 [device.py   ] [INFO ]  Stopping device 3ff08774-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,791 [device.py   ] [INFO ]  Stopping device 3ff08776-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,793 [device.py   ] [INFO ]  Stopping device 3ff08777-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,794 [device.py   ] [INFO ]  Stopping device 3ff08778-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,796 [device.py   ] [INFO ]  Stopping device 3ff08779-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,798 [device.py   ] [INFO ]  Stopping device 3ff0877b-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,800 [device.py   ] [INFO ]  Stopping device 3ff0877c-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,801 [device.py   ] [INFO ]  Stopping device 3ff0877d-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,804 [device.py   ] [INFO ]  Stopping device 3ff0877e-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,808 [device.py   ] [INFO ]  Stopping device 3ff0877a-052f-11e9-8a72-4c72b9c8f180
-2018-12-21 15:46:50,808 [simulator.py] [INFO ]  Device 3ff0871b-052f-11e9-8a72-4c72b9c8f180 sent 3704.25 bytes in 2.2733s consuming 118.5220 mWs
-2018-12-21 15:46:50,808 [simulator.py] [INFO ]  Device 3ff0871c-052f-11e9-8a72-4c72b9c8f180 sent 2227.25 bytes in 0.2095s consuming 18.0960 mWs
-2018-12-21 15:46:50,808 [simulator.py] [INFO ]  Device 3ff0871d-052f-11e9-8a72-4c72b9c8f180 sent 1947.25 bytes in 0.2093s consuming 23.3597 mWs
-2018-12-21 15:46:50,809 [simulator.py] [INFO ]  Device 3ff0871e-052f-11e9-8a72-4c72b9c8f180 sent 2106.75 bytes in 0.2050s consuming 20.6110 mWs
-2018-12-21 15:46:50,809 [simulator.py] [INFO ]  Device 3ff0871f-052f-11e9-8a72-4c72b9c8f180 sent 2600.0 bytes in 0.4155s consuming 30.4554 mWs
-2018-12-21 15:46:50,809 [simulator.py] [INFO ]  Device 3ff08720-052f-11e9-8a72-4c72b9c8f180 sent 1944.25 bytes in 0.2093s consuming 20.8587 mWs
-2018-12-21 15:46:50,809 [simulator.py] [INFO ]  Device 3ff08721-052f-11e9-8a72-4c72b9c8f180 sent 3330.75 bytes in 2.3421s consuming 77.1583 mWs
-2018-12-21 15:46:50,809 [simulator.py] [INFO ]  Device 3ff08722-052f-11e9-8a72-4c72b9c8f180 sent 2637.25 bytes in 0.4467s consuming 30.5283 mWs
-2018-12-21 15:46:50,809 [simulator.py] [INFO ]  Device 3ff08723-052f-11e9-8a72-4c72b9c8f180 sent 3376.0 bytes in 2.6011s consuming 139.7676 mWs
-2018-12-21 15:46:50,809 [simulator.py] [INFO ]  Device 3ff08724-052f-11e9-8a72-4c72b9c8f180 sent 2314.0 bytes in 0.3976s consuming 26.5125 mWs
-2018-12-21 15:46:50,809 [simulator.py] [INFO ]  Device 3ff08725-052f-11e9-8a72-4c72b9c8f180 sent 2480.0 bytes in 0.4402s consuming 33.2627 mWs
-2018-12-21 15:46:50,809 [simulator.py] [INFO ]  Device 3ff08726-052f-11e9-8a72-4c72b9c8f180 sent 2737.5 bytes in 2.2442s consuming 124.3092 mWs
-2018-12-21 15:46:50,809 [simulator.py] [INFO ]  Device 3ff08727-052f-11e9-8a72-4c72b9c8f180 sent 1944.0 bytes in 0.1812s consuming 17.6855 mWs
-2018-12-21 15:46:50,810 [simulator.py] [INFO ]  Device 3ff08728-052f-11e9-8a72-4c72b9c8f180 sent 3005.75 bytes in 0.4921s consuming 33.7603 mWs
-2018-12-21 15:46:50,810 [simulator.py] [INFO ]  Device 3ff08729-052f-11e9-8a72-4c72b9c8f180 sent 3309.5 bytes in 2.9853s consuming 199.8832 mWs
-2018-12-21 15:46:50,810 [simulator.py] [INFO ]  Device 3ff0872a-052f-11e9-8a72-4c72b9c8f180 sent 2883.25 bytes in 0.4739s consuming 36.8065 mWs
-2018-12-21 15:46:50,810 [simulator.py] [INFO ]  Device 3ff0872b-052f-11e9-8a72-4c72b9c8f180 sent 2763.0 bytes in 0.4552s consuming 32.7019 mWs
-2018-12-21 15:46:50,810 [simulator.py] [INFO ]  Device 3ff0872c-052f-11e9-8a72-4c72b9c8f180 sent 2723.0 bytes in 0.5080s consuming 38.6912 mWs
-2018-12-21 15:46:50,810 [simulator.py] [INFO ]  Device 3ff0872d-052f-11e9-8a72-4c72b9c8f180 sent 3379.0 bytes in 2.0633s consuming 105.1009 mWs
-2018-12-21 15:46:50,810 [simulator.py] [INFO ]  Device 3ff0872e-052f-11e9-8a72-4c72b9c8f180 sent 3344.25 bytes in 2.0797s consuming 93.4748 mWs
-2018-12-21 15:46:50,810 [simulator.py] [INFO ]  Device 3ff0872f-052f-11e9-8a72-4c72b9c8f180 sent 3541.25 bytes in 2.5920s consuming 116.9342 mWs
-2018-12-21 15:46:50,810 [simulator.py] [INFO ]  Device 3ff08730-052f-11e9-8a72-4c72b9c8f180 sent 3421.25 bytes in 2.2280s consuming 105.8200 mWs
-2018-12-21 15:46:50,810 [simulator.py] [INFO ]  Device 3ff08731-052f-11e9-8a72-4c72b9c8f180 sent 3653.75 bytes in 2.6853s consuming 164.7607 mWs
-2018-12-21 15:46:50,811 [simulator.py] [INFO ]  Device 3ff08732-052f-11e9-8a72-4c72b9c8f180 sent 2403.0 bytes in 0.4128s consuming 35.2437 mWs
-2018-12-21 15:46:50,811 [simulator.py] [INFO ]  Device 3ff08733-052f-11e9-8a72-4c72b9c8f180 sent 3739.0 bytes in 2.9917s consuming 171.2644 mWs
-2018-12-21 15:46:50,811 [simulator.py] [INFO ]  Device 3ff08734-052f-11e9-8a72-4c72b9c8f180 sent 2279.75 bytes in 0.3709s consuming 27.1211 mWs
-2018-12-21 15:46:50,811 [simulator.py] [INFO ]  Device 3ff08735-052f-11e9-8a72-4c72b9c8f180 sent 2725.75 bytes in 0.4657s consuming 36.5796 mWs
-2018-12-21 15:46:50,811 [simulator.py] [INFO ]  Device 3ff08736-052f-11e9-8a72-4c72b9c8f180 sent 1824.25 bytes in 0.1957s consuming 19.2179 mWs
-2018-12-21 15:46:50,811 [simulator.py] [INFO ]  Device 3ff08737-052f-11e9-8a72-4c72b9c8f180 sent 2520.0 bytes in 0.4274s consuming 31.9493 mWs
-2018-12-21 15:46:50,811 [simulator.py] [INFO ]  Device 3ff08738-052f-11e9-8a72-4c72b9c8f180 sent 2525.5 bytes in 0.3984s consuming 30.0252 mWs
-2018-12-21 15:46:50,811 [simulator.py] [INFO ]  Device 3ff08739-052f-11e9-8a72-4c72b9c8f180 sent 3416.0 bytes in 2.1949s consuming 133.0360 mWs
-2018-12-21 15:46:50,811 [simulator.py] [INFO ]  Device 3ff0873a-052f-11e9-8a72-4c72b9c8f180 sent 1944.0 bytes in 0.1989s consuming 20.5472 mWs
-2018-12-21 15:46:50,811 [simulator.py] [INFO ]  Device 3ff0873b-052f-11e9-8a72-4c72b9c8f180 sent 2943.5 bytes in 2.0855s consuming 102.4235 mWs
-2018-12-21 15:46:50,812 [simulator.py] [INFO ]  Device 3ff0873c-052f-11e9-8a72-4c72b9c8f180 sent 2886.0 bytes in 0.4893s consuming 39.0621 mWs
-2018-12-21 15:46:50,812 [simulator.py] [INFO ]  Device 3ff0873d-052f-11e9-8a72-4c72b9c8f180 sent 3659.0 bytes in 2.6559s consuming 155.2620 mWs
-2018-12-21 15:46:50,812 [simulator.py] [INFO ]  Device 3ff0873e-052f-11e9-8a72-4c72b9c8f180 sent 3621.25 bytes in 2.7687s consuming 160.6310 mWs
-2018-12-21 15:46:50,812 [simulator.py] [INFO ]  Device 3ff0873f-052f-11e9-8a72-4c72b9c8f180 sent 1987.25 bytes in 0.1859s consuming 19.1050 mWs
-2018-12-21 15:46:50,812 [simulator.py] [INFO ]  Device 3ff08740-052f-11e9-8a72-4c72b9c8f180 sent 3348.75 bytes in 2.8137s consuming 162.1895 mWs
-2018-12-21 15:46:50,812 [simulator.py] [INFO ]  Device 3ff08741-052f-11e9-8a72-4c72b9c8f180 sent 3298.25 bytes in 2.6401s consuming 129.0847 mWs
-2018-12-21 15:46:50,812 [simulator.py] [INFO ]  Device 3ff08742-052f-11e9-8a72-4c72b9c8f180 sent 3450.75 bytes in 2.5000s consuming 166.0092 mWs
-2018-12-21 15:46:50,812 [simulator.py] [INFO ]  Device 3ff08743-052f-11e9-8a72-4c72b9c8f180 sent 1903.75 bytes in 0.2005s consuming 19.3550 mWs
-2018-12-21 15:46:50,812 [simulator.py] [INFO ]  Device 3ff08744-052f-11e9-8a72-4c72b9c8f180 sent 3539.0 bytes in 2.7499s consuming 133.5722 mWs
-2018-12-21 15:46:50,813 [simulator.py] [INFO ]  Device 3ff08745-052f-11e9-8a72-4c72b9c8f180 sent 2517.25 bytes in 0.3720s consuming 25.5627 mWs
-2018-12-21 15:46:50,813 [simulator.py] [INFO ]  Device 3ff08746-052f-11e9-8a72-4c72b9c8f180 sent 3424.25 bytes in 2.7303s consuming 180.1693 mWs
-2018-12-21 15:46:50,813 [simulator.py] [INFO ]  Device 3ff08747-052f-11e9-8a72-4c72b9c8f180 sent 2645.5 bytes in 0.4404s consuming 32.0759 mWs
-2018-12-21 15:46:50,813 [simulator.py] [INFO ]  Device 3ff08748-052f-11e9-8a72-4c72b9c8f180 sent 3704.25 bytes in 2.6588s consuming 116.2745 mWs
-2018-12-21 15:46:50,813 [simulator.py] [INFO ]  Device 3ff08749-052f-11e9-8a72-4c72b9c8f180 sent 3022.75 bytes in 2.1914s consuming 116.4811 mWs
-2018-12-21 15:46:50,813 [simulator.py] [INFO ]  Device 3ff0874a-052f-11e9-8a72-4c72b9c8f180 sent 3256.0 bytes in 2.4595s consuming 160.8176 mWs
-2018-12-21 15:46:50,813 [simulator.py] [INFO ]  Device 3ff0874b-052f-11e9-8a72-4c72b9c8f180 sent 2934.5 bytes in 0.4601s consuming 37.0925 mWs
-2018-12-21 15:46:50,813 [simulator.py] [INFO ]  Device 3ff0874c-052f-11e9-8a72-4c72b9c8f180 sent 2813.0 bytes in 2.1284s consuming 152.4985 mWs
-2018-12-21 15:46:50,813 [simulator.py] [INFO ]  Device 3ff0874d-052f-11e9-8a72-4c72b9c8f180 sent 3699.0 bytes in 3.3220s consuming 173.7460 mWs
-2018-12-21 15:46:50,813 [simulator.py] [INFO ]  Device 3ff0874e-052f-11e9-8a72-4c72b9c8f180 sent 2067.5 bytes in 0.2118s consuming 21.3225 mWs
-2018-12-21 15:46:50,814 [simulator.py] [INFO ]  Device 3ff0874f-052f-11e9-8a72-4c72b9c8f180 sent 3253.75 bytes in 2.4377s consuming 135.3898 mWs
-2018-12-21 15:46:50,814 [simulator.py] [INFO ]  Device 3ff08750-052f-11e9-8a72-4c72b9c8f180 sent 2146.75 bytes in 0.2046s consuming 20.6576 mWs
-2018-12-21 15:46:50,814 [simulator.py] [INFO ]  Device 3ff08751-052f-11e9-8a72-4c72b9c8f180 sent 3461.25 bytes in 2.7153s consuming 141.9221 mWs
-2018-12-21 15:46:50,814 [simulator.py] [INFO ]  Device 3ff08752-052f-11e9-8a72-4c72b9c8f180 sent 3453.75 bytes in 2.8926s consuming 184.8063 mWs
-2018-12-21 15:46:50,814 [simulator.py] [INFO ]  Device 3ff08753-052f-11e9-8a72-4c72b9c8f180 sent 2027.25 bytes in 0.2148s consuming 21.4418 mWs
-2018-12-21 15:46:50,814 [simulator.py] [INFO ]  Device 3ff08754-052f-11e9-8a72-4c72b9c8f180 sent 2274.0 bytes in 0.3877s consuming 27.9214 mWs
-2018-12-21 15:46:50,814 [simulator.py] [INFO ]  Device 3ff08755-052f-11e9-8a72-4c72b9c8f180 sent 2362.5 bytes in 0.3971s consuming 30.7733 mWs
-2018-12-21 15:46:50,814 [simulator.py] [INFO ]  Device 3ff08756-052f-11e9-8a72-4c72b9c8f180 sent 2761.75 bytes in 1.8298s consuming 40.7624 mWs
-2018-12-21 15:46:50,814 [simulator.py] [INFO ]  Device 3ff08757-052f-11e9-8a72-4c72b9c8f180 sent 3659.0 bytes in 3.0612s consuming 148.6037 mWs
-2018-12-21 15:46:50,814 [simulator.py] [INFO ]  Device 3ff08758-052f-11e9-8a72-4c72b9c8f180 sent 3773.75 bytes in 2.8702s consuming 141.0286 mWs
-2018-12-21 15:46:50,815 [simulator.py] [INFO ]  Device 3ff08759-052f-11e9-8a72-4c72b9c8f180 sent 3456.0 bytes in 3.0292s consuming 168.0304 mWs
-2018-12-21 15:46:50,815 [simulator.py] [INFO ]  Device 3ff0875a-052f-11e9-8a72-4c72b9c8f180 sent 3570.75 bytes in 2.5603s consuming 109.2926 mWs
-2018-12-21 15:46:50,815 [simulator.py] [INFO ]  Device 3ff0875b-052f-11e9-8a72-4c72b9c8f180 sent 2983.5 bytes in 1.7249s consuming 105.2366 mWs
-2018-12-21 15:46:50,815 [simulator.py] [INFO ]  Device 3ff0875c-052f-11e9-8a72-4c72b9c8f180 sent 3299.0 bytes in 2.5085s consuming 141.0093 mWs
-2018-12-21 15:46:50,815 [simulator.py] [INFO ]  Device 3ff0875d-052f-11e9-8a72-4c72b9c8f180 sent 2437.0 bytes in 0.4245s consuming 30.4714 mWs
-2018-12-21 15:46:50,815 [simulator.py] [INFO ]  Device 3ff0875e-052f-11e9-8a72-4c72b9c8f180 sent 2063.75 bytes in 0.2031s consuming 19.6813 mWs
-2018-12-21 15:46:50,815 [simulator.py] [INFO ]  Device 3ff0875f-052f-11e9-8a72-4c72b9c8f180 sent 3256.0 bytes in 2.7499s consuming 186.4607 mWs
-2018-12-21 15:46:50,815 [simulator.py] [INFO ]  Device 3ff08760-052f-11e9-8a72-4c72b9c8f180 sent 3773.75 bytes in 3.4631s consuming 180.2105 mWs
-2018-12-21 15:46:50,815 [simulator.py] [INFO ]  Device 3ff08761-052f-11e9-8a72-4c72b9c8f180 sent 2239.75 bytes in 0.3758s consuming 28.7590 mWs
-2018-12-21 15:46:50,816 [simulator.py] [INFO ]  Device 3ff08762-052f-11e9-8a72-4c72b9c8f180 sent 3247.75 bytes in 2.8142s consuming 143.5102 mWs
-2018-12-21 15:46:50,816 [simulator.py] [INFO ]  Device 3ff08763-052f-11e9-8a72-4c72b9c8f180 sent 2396.75 bytes in 0.3827s consuming 24.0141 mWs
-2018-12-21 15:46:50,816 [simulator.py] [INFO ]  Device 3ff08764-052f-11e9-8a72-4c72b9c8f180 sent 2923.0 bytes in 0.4566s consuming 31.4076 mWs
-2018-12-21 15:46:50,816 [simulator.py] [INFO ]  Device 3ff08765-052f-11e9-8a72-4c72b9c8f180 sent 3173.0 bytes in 2.3733s consuming 94.7586 mWs
-2018-12-21 15:46:50,816 [simulator.py] [INFO ]  Device 3ff08766-052f-11e9-8a72-4c72b9c8f180 sent 3096.0 bytes in 1.8754s consuming 66.7291 mWs
-2018-12-21 15:46:50,816 [simulator.py] [INFO ]  Device 3ff08767-052f-11e9-8a72-4c72b9c8f180 sent 2399.75 bytes in 0.4023s consuming 29.9024 mWs
-2018-12-21 15:46:50,816 [simulator.py] [INFO ]  Device 3ff08768-052f-11e9-8a72-4c72b9c8f180 sent 3653.75 bytes in 2.7132s consuming 152.0629 mWs
-2018-12-21 15:46:50,816 [simulator.py] [INFO ]  Device 3ff08769-052f-11e9-8a72-4c72b9c8f180 sent 3784.25 bytes in 2.2417s consuming 99.8923 mWs
-2018-12-21 15:46:50,817 [simulator.py] [INFO ]  Device 3ff0876a-052f-11e9-8a72-4c72b9c8f180 sent 2964.75 bytes in 2.4863s consuming 127.6790 mWs
-2018-12-21 15:46:50,817 [simulator.py] [INFO ]  Device 3ff0876b-052f-11e9-8a72-4c72b9c8f180 sent 2317.25 bytes in 0.4106s consuming 34.2187 mWs
-2018-12-21 15:46:50,817 [simulator.py] [INFO ]  Device 3ff0876c-052f-11e9-8a72-4c72b9c8f180 sent 3754.75 bytes in 2.5724s consuming 95.9553 mWs
-2018-12-21 15:46:50,817 [simulator.py] [INFO ]  Device 3ff0876d-052f-11e9-8a72-4c72b9c8f180 sent 2314.25 bytes in 0.3943s consuming 28.1188 mWs
-2018-12-21 15:46:50,817 [simulator.py] [INFO ]  Device 3ff0876e-052f-11e9-8a72-4c72b9c8f180 sent 3779.0 bytes in 2.5226s consuming 132.2627 mWs
-2018-12-21 15:46:50,817 [simulator.py] [INFO ]  Device 3ff0876f-052f-11e9-8a72-4c72b9c8f180 sent 3336.0 bytes in 2.4371s consuming 101.1922 mWs
-2018-12-21 15:46:50,817 [simulator.py] [INFO ]  Device 3ff08770-052f-11e9-8a72-4c72b9c8f180 sent 2885.75 bytes in 0.4840s consuming 36.1251 mWs
-2018-12-21 15:46:50,817 [simulator.py] [INFO ]  Device 3ff08771-052f-11e9-8a72-4c72b9c8f180 sent 2890.0 bytes in 1.8182s consuming 86.2398 mWs
-2018-12-21 15:46:50,818 [simulator.py] [INFO ]  Device 3ff08772-052f-11e9-8a72-4c72b9c8f180 sent 3699.0 bytes in 2.2349s consuming 107.1289 mWs
-2018-12-21 15:46:50,818 [simulator.py] [INFO ]  Device 3ff08773-052f-11e9-8a72-4c72b9c8f180 sent 3613.75 bytes in 2.4974s consuming 93.9601 mWs
-2018-12-21 15:46:50,818 [simulator.py] [INFO ]  Device 3ff08774-052f-11e9-8a72-4c72b9c8f180 sent 2941.25 bytes in 1.7098s consuming 78.7352 mWs
-2018-12-21 15:46:50,818 [simulator.py] [INFO ]  Device 3ff08775-052f-11e9-8a72-4c72b9c8f180 sent 3739.0 bytes in 3.7194s consuming 234.8024 mWs
-2018-12-21 15:46:50,818 [simulator.py] [INFO ]  Device 3ff08776-052f-11e9-8a72-4c72b9c8f180 sent 2920.0 bytes in 0.4726s consuming 29.7545 mWs
-2018-12-21 15:46:50,818 [simulator.py] [INFO ]  Device 3ff08777-052f-11e9-8a72-4c72b9c8f180 sent 2975.25 bytes in 1.8937s consuming 73.1649 mWs
-2018-12-21 15:46:50,818 [simulator.py] [INFO ]  Device 3ff08778-052f-11e9-8a72-4c72b9c8f180 sent 3290.75 bytes in 2.4831s consuming 147.0070 mWs
-2018-12-21 15:46:50,818 [simulator.py] [INFO ]  Device 3ff08779-052f-11e9-8a72-4c72b9c8f180 sent 2682.75 bytes in 0.4698s consuming 33.9758 mWs
-2018-12-21 15:46:50,819 [simulator.py] [INFO ]  Device 3ff0877a-052f-11e9-8a72-4c72b9c8f180 sent 3704.25 bytes in 3.5691s consuming 202.5183 mWs
-2018-12-21 15:46:50,819 [simulator.py] [INFO ]  Device 3ff0877b-052f-11e9-8a72-4c72b9c8f180 sent 3610.75 bytes in 3.3070s consuming 188.4992 mWs
-2018-12-21 15:46:50,819 [simulator.py] [INFO ]  Device 3ff0877c-052f-11e9-8a72-4c72b9c8f180 sent 2322.5 bytes in 0.3901s consuming 27.3502 mWs
-2018-12-21 15:46:50,819 [simulator.py] [INFO ]  Device 3ff0877d-052f-11e9-8a72-4c72b9c8f180 sent 2925.75 bytes in 0.5120s consuming 41.2850 mWs
-2018-12-21 15:46:50,819 [simulator.py] [INFO ]  Device 3ff0877e-052f-11e9-8a72-4c72b9c8f180 sent 3509.5 bytes in 2.4537s consuming 165.4052 mWs
-2018-12-21 15:50:24,878 [simulator.py] [INFO ]  Scenario plotted
-2018-12-21 15:50:24,879 [simulator.py] [INFO ]  Simulation ended
+2018-12-21 16:55:42,879 [simulator.py] [INFO ]  Loading configurations
+2018-12-21 16:55:42,887 [simulator.py] [DEBUG]  Number of devices: 100
+2018-12-21 16:55:42,888 [simulator.py] [DEBUG]  Stack: http | tcp | ip | nb_iot
+2018-12-21 16:55:42,888 [cell.py     ] [INFO ]  Cell defc220c-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,888 [device.py   ] [INFO ]  Device defc220d-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,888 [device.py   ] [INFO ]  Device defc220e-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,889 [device.py   ] [INFO ]  Device defc220f-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,889 [device.py   ] [INFO ]  Device defc2210-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,889 [device.py   ] [INFO ]  Device defc2211-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,889 [device.py   ] [INFO ]  Device defc2212-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,889 [device.py   ] [INFO ]  Device defc2213-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,890 [device.py   ] [INFO ]  Device defc2214-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,890 [device.py   ] [INFO ]  Device defc2215-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,890 [device.py   ] [INFO ]  Device defc2216-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,890 [device.py   ] [INFO ]  Device defc2217-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,891 [device.py   ] [INFO ]  Device defc2218-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,891 [device.py   ] [INFO ]  Device defc2219-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,891 [device.py   ] [INFO ]  Device defc221a-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,891 [device.py   ] [INFO ]  Device defc221b-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,892 [device.py   ] [INFO ]  Device defc221c-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,892 [device.py   ] [INFO ]  Device defc221d-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,892 [device.py   ] [INFO ]  Device defc221e-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,892 [device.py   ] [INFO ]  Device defc221f-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,893 [device.py   ] [INFO ]  Device defc2220-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,893 [device.py   ] [INFO ]  Device defc2221-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,893 [device.py   ] [INFO ]  Device defc2222-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,893 [device.py   ] [INFO ]  Device defc2223-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,893 [device.py   ] [INFO ]  Device defc2224-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,894 [device.py   ] [INFO ]  Device defc2225-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,894 [device.py   ] [INFO ]  Device defc2226-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,894 [device.py   ] [INFO ]  Device defc2227-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,894 [device.py   ] [INFO ]  Device defc2228-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,895 [device.py   ] [INFO ]  Device defc2229-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,895 [device.py   ] [INFO ]  Device defc222a-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,895 [device.py   ] [INFO ]  Device defc222b-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,895 [device.py   ] [INFO ]  Device defc222c-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,895 [device.py   ] [INFO ]  Device defc222d-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,896 [device.py   ] [INFO ]  Device defc222e-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,896 [device.py   ] [INFO ]  Device defc222f-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,896 [device.py   ] [INFO ]  Device defc2230-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,896 [device.py   ] [INFO ]  Device defc2231-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,896 [device.py   ] [INFO ]  Device defc2232-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,897 [device.py   ] [INFO ]  Device defc2233-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,897 [device.py   ] [INFO ]  Device defc2234-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,897 [device.py   ] [INFO ]  Device defc2235-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,897 [device.py   ] [INFO ]  Device defc2236-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,897 [device.py   ] [INFO ]  Device defc2237-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,897 [device.py   ] [INFO ]  Device defc2238-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,898 [device.py   ] [INFO ]  Device defc2239-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,898 [device.py   ] [INFO ]  Device defc223a-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,898 [device.py   ] [INFO ]  Device defc223b-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,898 [device.py   ] [INFO ]  Device defc223c-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,898 [device.py   ] [INFO ]  Device defc223d-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,899 [device.py   ] [INFO ]  Device defc223e-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,899 [device.py   ] [INFO ]  Device defc223f-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,899 [device.py   ] [INFO ]  Device defc2240-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,899 [device.py   ] [INFO ]  Device defc2241-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,899 [device.py   ] [INFO ]  Device defc2242-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,900 [device.py   ] [INFO ]  Device defc2243-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,900 [device.py   ] [INFO ]  Device defc2244-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,900 [device.py   ] [INFO ]  Device defc2245-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,900 [device.py   ] [INFO ]  Device defc2246-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,900 [device.py   ] [INFO ]  Device defc2247-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,901 [device.py   ] [INFO ]  Device defc2248-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,901 [device.py   ] [INFO ]  Device defc2249-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,901 [device.py   ] [INFO ]  Device defc224a-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,901 [device.py   ] [INFO ]  Device defc224b-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,901 [device.py   ] [INFO ]  Device defc224c-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,901 [device.py   ] [INFO ]  Device defc224d-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,902 [device.py   ] [INFO ]  Device defc224e-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,902 [device.py   ] [INFO ]  Device defc224f-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,902 [device.py   ] [INFO ]  Device defc2250-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,902 [device.py   ] [INFO ]  Device defc2251-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,903 [device.py   ] [INFO ]  Device defc2252-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,903 [device.py   ] [INFO ]  Device defc2253-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,903 [device.py   ] [INFO ]  Device defc2254-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,903 [device.py   ] [INFO ]  Device defc2255-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,903 [device.py   ] [INFO ]  Device defc2256-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,904 [device.py   ] [INFO ]  Device defc2257-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,904 [device.py   ] [INFO ]  Device defc2258-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,904 [device.py   ] [INFO ]  Device defc2259-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,904 [device.py   ] [INFO ]  Device defc225a-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,904 [device.py   ] [INFO ]  Device defc225b-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,905 [device.py   ] [INFO ]  Device defc225c-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,905 [device.py   ] [INFO ]  Device defc225d-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,905 [device.py   ] [INFO ]  Device defc225e-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,905 [device.py   ] [INFO ]  Device defc225f-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,905 [device.py   ] [INFO ]  Device defc2260-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,906 [device.py   ] [INFO ]  Device defc2261-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,906 [device.py   ] [INFO ]  Device defc2262-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,906 [device.py   ] [INFO ]  Device defc2263-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,906 [device.py   ] [INFO ]  Device defc2264-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,906 [device.py   ] [INFO ]  Device defc2265-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,907 [device.py   ] [INFO ]  Device defc2266-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,907 [device.py   ] [INFO ]  Device defc2267-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,907 [device.py   ] [INFO ]  Device defc2268-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,907 [device.py   ] [INFO ]  Device defc2269-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,907 [device.py   ] [INFO ]  Device defc226a-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,908 [device.py   ] [INFO ]  Device defc226b-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,908 [device.py   ] [INFO ]  Device defc226c-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,909 [device.py   ] [INFO ]  Device defc226d-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,909 [device.py   ] [INFO ]  Device defc226e-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,909 [device.py   ] [INFO ]  Device defc226f-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,909 [device.py   ] [INFO ]  Device defc2270-0538-11e9-8a72-4c72b9c8f180 created
+2018-12-21 16:55:42,910 [simulator.py] [DEBUG]  Cell defc220c-0538-11e9-8a72-4c72b9c8f180, size 3000 with 100 devices
+2018-12-21 16:55:42,910 [device.py   ] [INFO ]  Starting device defc220d-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,913 [device.py   ] [INFO ]  Stopping device defc220d-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,913 [device.py   ] [INFO ]  Starting device defc220e-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,916 [device.py   ] [INFO ]  Stopping device defc220e-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,916 [device.py   ] [INFO ]  Starting device defc220f-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,916 [device.py   ] [INFO ]  Starting device defc2210-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,920 [device.py   ] [INFO ]  Stopping device defc220f-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,921 [device.py   ] [INFO ]  Starting device defc2211-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,923 [device.py   ] [INFO ]  Stopping device defc2210-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,926 [device.py   ] [INFO ]  Stopping device defc2211-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,926 [device.py   ] [INFO ]  Starting device defc2212-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,927 [device.py   ] [INFO ]  Starting device defc2213-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,931 [device.py   ] [INFO ]  Stopping device defc2212-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,931 [device.py   ] [INFO ]  Starting device defc2214-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,934 [device.py   ] [INFO ]  Stopping device defc2213-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,934 [device.py   ] [INFO ]  Starting device defc2215-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,935 [device.py   ] [INFO ]  Starting device defc2216-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,938 [device.py   ] [INFO ]  Stopping device defc2214-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,938 [device.py   ] [INFO ]  Starting device defc2217-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,938 [device.py   ] [INFO ]  Starting device defc2218-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,941 [device.py   ] [INFO ]  Stopping device defc2215-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,941 [device.py   ] [INFO ]  Starting device defc2219-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,944 [device.py   ] [INFO ]  Stopping device defc2216-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,944 [device.py   ] [INFO ]  Starting device defc221a-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,947 [device.py   ] [INFO ]  Stopping device defc2217-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,947 [device.py   ] [INFO ]  Starting device defc221b-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,948 [device.py   ] [INFO ]  Starting device defc221c-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,951 [device.py   ] [INFO ]  Stopping device defc2218-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,951 [device.py   ] [INFO ]  Starting device defc221d-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,952 [device.py   ] [INFO ]  Starting device defc221e-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,955 [device.py   ] [INFO ]  Stopping device defc2219-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,955 [device.py   ] [INFO ]  Starting device defc221f-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,958 [device.py   ] [INFO ]  Stopping device defc221a-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,959 [device.py   ] [INFO ]  Starting device defc2220-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,959 [device.py   ] [INFO ]  Starting device defc2221-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,962 [device.py   ] [INFO ]  Stopping device defc221b-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,965 [device.py   ] [INFO ]  Stopping device defc221c-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,965 [device.py   ] [INFO ]  Starting device defc2222-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,965 [device.py   ] [INFO ]  Starting device defc2223-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,968 [device.py   ] [INFO ]  Stopping device defc221d-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,969 [device.py   ] [INFO ]  Starting device defc2224-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,972 [device.py   ] [INFO ]  Stopping device defc221e-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,972 [device.py   ] [INFO ]  Starting device defc2225-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,972 [device.py   ] [INFO ]  Starting device defc2226-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,974 [device.py   ] [INFO ]  Stopping device defc221f-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,975 [device.py   ] [INFO ]  Starting device defc2227-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,975 [device.py   ] [INFO ]  Starting device defc2228-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,977 [device.py   ] [INFO ]  Stopping device defc2220-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,978 [device.py   ] [INFO ]  Starting device defc2229-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,980 [device.py   ] [INFO ]  Stopping device defc2221-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,981 [device.py   ] [INFO ]  Starting device defc222a-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,981 [device.py   ] [INFO ]  Starting device defc222b-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,984 [device.py   ] [INFO ]  Stopping device defc2222-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,984 [device.py   ] [INFO ]  Starting device defc222c-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,986 [device.py   ] [INFO ]  Stopping device defc2223-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,986 [device.py   ] [INFO ]  Starting device defc222d-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,986 [device.py   ] [INFO ]  Starting device defc222e-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,989 [device.py   ] [INFO ]  Stopping device defc2224-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,989 [device.py   ] [INFO ]  Starting device defc222f-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,990 [device.py   ] [INFO ]  Starting device defc2230-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,990 [device.py   ] [INFO ]  Starting device defc2231-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,992 [device.py   ] [INFO ]  Stopping device defc2225-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,996 [device.py   ] [INFO ]  Stopping device defc2226-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:42,996 [device.py   ] [INFO ]  Starting device defc2232-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,000 [device.py   ] [INFO ]  Stopping device defc2227-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,000 [device.py   ] [INFO ]  Starting device defc2233-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,003 [device.py   ] [INFO ]  Stopping device defc2228-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,003 [device.py   ] [INFO ]  Starting device defc2234-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,006 [device.py   ] [INFO ]  Stopping device defc2229-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,006 [device.py   ] [INFO ]  Starting device defc2235-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,006 [device.py   ] [INFO ]  Starting device defc2236-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,009 [device.py   ] [INFO ]  Stopping device defc222a-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,009 [device.py   ] [INFO ]  Starting device defc2237-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,011 [device.py   ] [INFO ]  Stopping device defc222b-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,012 [device.py   ] [INFO ]  Starting device defc2238-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,015 [device.py   ] [INFO ]  Stopping device defc222c-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,015 [device.py   ] [INFO ]  Starting device defc2239-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,017 [device.py   ] [INFO ]  Stopping device defc222d-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,017 [device.py   ] [INFO ]  Starting device defc223a-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,019 [device.py   ] [INFO ]  Stopping device defc222e-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,020 [device.py   ] [INFO ]  Starting device defc223b-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,020 [device.py   ] [INFO ]  Starting device defc223c-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,022 [device.py   ] [INFO ]  Stopping device defc222f-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,025 [device.py   ] [INFO ]  Stopping device defc2230-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,025 [device.py   ] [INFO ]  Starting device defc223d-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,027 [device.py   ] [INFO ]  Stopping device defc2231-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,028 [device.py   ] [INFO ]  Starting device defc223e-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,028 [device.py   ] [INFO ]  Starting device defc223f-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,030 [device.py   ] [INFO ]  Stopping device defc2232-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,030 [device.py   ] [INFO ]  Starting device defc2240-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,031 [device.py   ] [INFO ]  Starting device defc2241-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,033 [device.py   ] [INFO ]  Stopping device defc2233-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,036 [device.py   ] [INFO ]  Stopping device defc2234-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,036 [device.py   ] [INFO ]  Starting device defc2242-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,036 [device.py   ] [INFO ]  Starting device defc2243-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,037 [device.py   ] [INFO ]  Starting device defc2244-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,039 [device.py   ] [INFO ]  Stopping device defc2235-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,039 [device.py   ] [INFO ]  Starting device defc2245-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,039 [device.py   ] [INFO ]  Starting device defc2246-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,043 [device.py   ] [INFO ]  Stopping device defc2236-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,043 [device.py   ] [INFO ]  Starting device defc2247-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,043 [device.py   ] [INFO ]  Starting device defc2248-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,043 [device.py   ] [INFO ]  Starting device defc2249-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,046 [device.py   ] [INFO ]  Stopping device defc2237-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,046 [device.py   ] [INFO ]  Starting device defc224a-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,046 [device.py   ] [INFO ]  Starting device defc224b-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,048 [device.py   ] [INFO ]  Stopping device defc2238-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,049 [device.py   ] [INFO ]  Starting device defc224c-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,049 [device.py   ] [INFO ]  Starting device defc224d-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,052 [device.py   ] [INFO ]  Stopping device defc2239-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,052 [device.py   ] [INFO ]  Starting device defc224e-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,052 [device.py   ] [INFO ]  Starting device defc224f-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,054 [device.py   ] [INFO ]  Stopping device defc223a-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,054 [device.py   ] [INFO ]  Starting device defc2250-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,055 [device.py   ] [INFO ]  Starting device defc2251-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,057 [device.py   ] [INFO ]  Stopping device defc223b-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,059 [device.py   ] [INFO ]  Stopping device defc223c-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,060 [device.py   ] [INFO ]  Starting device defc2252-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,060 [device.py   ] [INFO ]  Starting device defc2253-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,060 [device.py   ] [INFO ]  Starting device defc2254-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,063 [device.py   ] [INFO ]  Stopping device defc223d-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,063 [device.py   ] [INFO ]  Starting device defc2255-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,065 [device.py   ] [INFO ]  Stopping device defc223e-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,066 [device.py   ] [INFO ]  Starting device defc2256-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,068 [device.py   ] [INFO ]  Stopping device defc223f-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,068 [device.py   ] [INFO ]  Starting device defc2257-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,070 [device.py   ] [INFO ]  Stopping device defc2240-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,071 [device.py   ] [INFO ]  Starting device defc2258-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,074 [device.py   ] [INFO ]  Stopping device defc2241-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,074 [device.py   ] [INFO ]  Starting device defc2259-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,074 [device.py   ] [INFO ]  Starting device defc225a-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,075 [device.py   ] [INFO ]  Starting device defc225b-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,075 [device.py   ] [INFO ]  Starting device defc225c-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,077 [device.py   ] [INFO ]  Stopping device defc2242-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,077 [device.py   ] [INFO ]  Starting device defc225d-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,079 [device.py   ] [INFO ]  Stopping device defc2243-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,080 [device.py   ] [INFO ]  Starting device defc225e-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,082 [device.py   ] [INFO ]  Stopping device defc2244-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,082 [device.py   ] [INFO ]  Starting device defc225f-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,083 [device.py   ] [INFO ]  Starting device defc2260-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,086 [device.py   ] [INFO ]  Stopping device defc2245-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,086 [device.py   ] [INFO ]  Starting device defc2261-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,088 [device.py   ] [INFO ]  Stopping device defc2246-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,088 [device.py   ] [INFO ]  Starting device defc2262-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,091 [device.py   ] [INFO ]  Stopping device defc2247-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,091 [device.py   ] [INFO ]  Starting device defc2263-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,093 [device.py   ] [INFO ]  Stopping device defc2248-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,094 [device.py   ] [INFO ]  Starting device defc2264-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,096 [device.py   ] [INFO ]  Stopping device defc2249-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,096 [device.py   ] [INFO ]  Starting device defc2265-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,100 [device.py   ] [INFO ]  Stopping device defc224a-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,102 [device.py   ] [INFO ]  Stopping device defc224b-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,103 [device.py   ] [INFO ]  Starting device defc2266-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,105 [device.py   ] [INFO ]  Stopping device defc224d-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,105 [device.py   ] [INFO ]  Starting device defc2267-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,105 [device.py   ] [INFO ]  Starting device defc2268-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,108 [device.py   ] [INFO ]  Stopping device defc224e-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,108 [device.py   ] [INFO ]  Starting device defc2269-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,111 [device.py   ] [INFO ]  Stopping device defc224f-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,113 [device.py   ] [INFO ]  Stopping device defc224c-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,115 [device.py   ] [INFO ]  Stopping device defc2250-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,116 [device.py   ] [INFO ]  Starting device defc226a-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,119 [device.py   ] [INFO ]  Stopping device defc2251-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,119 [device.py   ] [INFO ]  Starting device defc226b-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,122 [device.py   ] [INFO ]  Stopping device defc2252-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,122 [device.py   ] [INFO ]  Starting device defc226c-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,125 [device.py   ] [INFO ]  Stopping device defc2253-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,125 [device.py   ] [INFO ]  Starting device defc226d-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,128 [device.py   ] [INFO ]  Stopping device defc2254-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,128 [device.py   ] [INFO ]  Starting device defc226e-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,128 [device.py   ] [INFO ]  Starting device defc226f-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,128 [device.py   ] [INFO ]  Starting device defc2270-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,131 [device.py   ] [INFO ]  Stopping device defc2255-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,133 [device.py   ] [INFO ]  Stopping device defc2256-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,136 [device.py   ] [INFO ]  Stopping device defc2257-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,138 [device.py   ] [INFO ]  Stopping device defc2258-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,140 [device.py   ] [INFO ]  Stopping device defc2259-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,143 [device.py   ] [INFO ]  Stopping device defc225a-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,145 [device.py   ] [INFO ]  Stopping device defc225b-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,148 [device.py   ] [INFO ]  Stopping device defc225c-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,150 [device.py   ] [INFO ]  Stopping device defc225d-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,153 [device.py   ] [INFO ]  Stopping device defc225e-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,156 [device.py   ] [INFO ]  Stopping device defc225f-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,159 [device.py   ] [INFO ]  Stopping device defc2260-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,161 [device.py   ] [INFO ]  Stopping device defc2261-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,164 [device.py   ] [INFO ]  Stopping device defc2262-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,167 [device.py   ] [INFO ]  Stopping device defc2263-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,170 [device.py   ] [INFO ]  Stopping device defc2264-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,172 [device.py   ] [INFO ]  Stopping device defc2265-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,175 [device.py   ] [INFO ]  Stopping device defc2266-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,178 [device.py   ] [INFO ]  Stopping device defc2267-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,180 [device.py   ] [INFO ]  Stopping device defc2268-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,183 [device.py   ] [INFO ]  Stopping device defc2269-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,186 [device.py   ] [INFO ]  Stopping device defc226a-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,188 [device.py   ] [INFO ]  Stopping device defc226b-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,191 [device.py   ] [INFO ]  Stopping device defc226c-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,194 [device.py   ] [INFO ]  Stopping device defc226d-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,196 [device.py   ] [INFO ]  Stopping device defc226e-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,198 [device.py   ] [INFO ]  Stopping device defc226f-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,201 [device.py   ] [INFO ]  Stopping device defc2270-0538-11e9-8a72-4c72b9c8f180
+2018-12-21 16:55:43,204 [simulator.py] [INFO ]  Device defc220d-0538-11e9-8a72-4c72b9c8f180 sent 5685.5 bytes in 0.9000s consuming 58.9399 mWs
+2018-12-21 16:55:43,204 [simulator.py] [INFO ]  Device defc220e-0538-11e9-8a72-4c72b9c8f180 sent 7558.0 bytes in 6.2212s consuming 307.6979 mWs
+2018-12-21 16:55:43,205 [simulator.py] [INFO ]  Device defc220f-0538-11e9-8a72-4c72b9c8f180 sent 6666.75 bytes in 5.5827s consuming 274.9527 mWs
+2018-12-21 16:55:43,205 [simulator.py] [INFO ]  Device defc2210-0538-11e9-8a72-4c72b9c8f180 sent 4639.5 bytes in 0.7988s consuming 59.7318 mWs
+2018-12-21 16:55:43,205 [simulator.py] [INFO ]  Device defc2211-0538-11e9-8a72-4c72b9c8f180 sent 7082.5 bytes in 5.0355s consuming 248.5509 mWs
+2018-12-21 16:55:43,205 [simulator.py] [INFO ]  Device defc2212-0538-11e9-8a72-4c72b9c8f180 sent 6199.5 bytes in 5.1931s consuming 279.9988 mWs
+2018-12-21 16:55:43,205 [simulator.py] [INFO ]  Device defc2213-0538-11e9-8a72-4c72b9c8f180 sent 6829.75 bytes in 5.4269s consuming 295.7338 mWs
+2018-12-21 16:55:43,205 [simulator.py] [INFO ]  Device defc2214-0538-11e9-8a72-4c72b9c8f180 sent 5162.75 bytes in 0.8746s consuming 65.6405 mWs
+2018-12-21 16:55:43,205 [simulator.py] [INFO ]  Device defc2215-0538-11e9-8a72-4c72b9c8f180 sent 5168.25 bytes in 0.9022s consuming 68.2344 mWs
+2018-12-21 16:55:43,205 [simulator.py] [INFO ]  Device defc2216-0538-11e9-8a72-4c72b9c8f180 sent 6327.0 bytes in 4.5332s consuming 233.0890 mWs
+2018-12-21 16:55:43,205 [simulator.py] [INFO ]  Device defc2217-0538-11e9-8a72-4c72b9c8f180 sent 6730.0 bytes in 4.8498s consuming 249.1879 mWs
+2018-12-21 16:55:43,205 [simulator.py] [INFO ]  Device defc2218-0538-11e9-8a72-4c72b9c8f180 sent 7552.75 bytes in 6.3657s consuming 370.4567 mWs
+2018-12-21 16:55:43,205 [simulator.py] [INFO ]  Device defc2219-0538-11e9-8a72-4c72b9c8f180 sent 5316.75 bytes in 0.9006s consuming 58.5781 mWs
+2018-12-21 16:55:43,205 [simulator.py] [INFO ]  Device defc221a-0538-11e9-8a72-4c72b9c8f180 sent 6818.5 bytes in 5.0154s consuming 244.4668 mWs
+2018-12-21 16:55:43,206 [simulator.py] [INFO ]  Device defc221b-0538-11e9-8a72-4c72b9c8f180 sent 7266.75 bytes in 5.2316s consuming 192.5260 mWs
+2018-12-21 16:55:43,206 [simulator.py] [INFO ]  Device defc221c-0538-11e9-8a72-4c72b9c8f180 sent 7205.5 bytes in 4.9487s consuming 206.0031 mWs
+2018-12-21 16:55:43,206 [simulator.py] [INFO ]  Device defc221d-0538-11e9-8a72-4c72b9c8f180 sent 5968.75 bytes in 1.0136s consuming 69.2694 mWs
+2018-12-21 16:55:43,206 [simulator.py] [INFO ]  Device defc221e-0538-11e9-8a72-4c72b9c8f180 sent 7304.5 bytes in 5.1165s consuming 216.4178 mWs
+2018-12-21 16:55:43,206 [simulator.py] [INFO ]  Device defc221f-0538-11e9-8a72-4c72b9c8f180 sent 4599.0 bytes in 0.7575s consuming 50.5804 mWs
+2018-12-21 16:55:43,206 [simulator.py] [INFO ]  Device defc2220-0538-11e9-8a72-4c72b9c8f180 sent 6207.75 bytes in 4.5575s consuming 246.4314 mWs
+2018-12-21 16:55:43,206 [simulator.py] [INFO ]  Device defc2221-0538-11e9-8a72-4c72b9c8f180 sent 6274.25 bytes in 4.3605s consuming 268.2662 mWs
+2018-12-21 16:55:43,206 [simulator.py] [INFO ]  Device defc2222-0538-11e9-8a72-4c72b9c8f180 sent 5745.25 bytes in 4.6289s consuming 219.2533 mWs
+2018-12-21 16:55:43,206 [simulator.py] [INFO ]  Device defc2223-0538-11e9-8a72-4c72b9c8f180 sent 5036.75 bytes in 0.8312s consuming 58.9337 mWs
+2018-12-21 16:55:43,206 [simulator.py] [INFO ]  Device defc2224-0538-11e9-8a72-4c72b9c8f180 sent 6917.25 bytes in 5.5605s consuming 325.9746 mWs
+2018-12-21 16:55:43,206 [simulator.py] [INFO ]  Device defc2225-0538-11e9-8a72-4c72b9c8f180 sent 4671.0 bytes in 0.7817s consuming 54.3034 mWs
+2018-12-21 16:55:43,206 [simulator.py] [INFO ]  Device defc2226-0538-11e9-8a72-4c72b9c8f180 sent 7410.75 bytes in 5.6547s consuming 264.8080 mWs
+2018-12-21 16:55:43,207 [simulator.py] [INFO ]  Device defc2227-0538-11e9-8a72-4c72b9c8f180 sent 6789.0 bytes in 5.8421s consuming 294.3712 mWs
+2018-12-21 16:55:43,207 [simulator.py] [INFO ]  Device defc2228-0538-11e9-8a72-4c72b9c8f180 sent 3808.5 bytes in 0.3817s consuming 37.4519 mWs
+2018-12-21 16:55:43,207 [simulator.py] [INFO ]  Device defc2229-0538-11e9-8a72-4c72b9c8f180 sent 4725.25 bytes in 0.8130s consuming 65.3893 mWs
+2018-12-21 16:55:43,207 [simulator.py] [INFO ]  Device defc222a-0538-11e9-8a72-4c72b9c8f180 sent 6632.0 bytes in 4.8696s consuming 235.5363 mWs
+2018-12-21 16:55:43,207 [simulator.py] [INFO ]  Device defc222b-0538-11e9-8a72-4c72b9c8f180 sent 5616.75 bytes in 0.9364s consuming 66.3567 mWs
+2018-12-21 16:55:43,207 [simulator.py] [INFO ]  Device defc222c-0538-11e9-8a72-4c72b9c8f180 sent 7395.0 bytes in 5.8794s consuming 307.7904 mWs
+2018-12-21 16:55:43,207 [simulator.py] [INFO ]  Device defc222d-0538-11e9-8a72-4c72b9c8f180 sent 5445.75 bytes in 0.9301s consuming 69.0199 mWs
+2018-12-21 16:55:43,207 [simulator.py] [INFO ]  Device defc222e-0538-11e9-8a72-4c72b9c8f180 sent 4474.0 bytes in 0.7503s consuming 55.4550 mWs
+2018-12-21 16:55:43,207 [simulator.py] [INFO ]  Device defc222f-0538-11e9-8a72-4c72b9c8f180 sent 4722.5 bytes in 0.8330s consuming 61.6712 mWs
+2018-12-21 16:55:43,207 [simulator.py] [INFO ]  Device defc2230-0538-11e9-8a72-4c72b9c8f180 sent 6714.25 bytes in 4.4656s consuming 219.1409 mWs
+2018-12-21 16:55:43,207 [simulator.py] [INFO ]  Device defc2231-0538-11e9-8a72-4c72b9c8f180 sent 7443.25 bytes in 5.5085s consuming 308.1836 mWs
+2018-12-21 16:55:43,208 [simulator.py] [INFO ]  Device defc2232-0538-11e9-8a72-4c72b9c8f180 sent 4965.25 bytes in 0.8338s consuming 60.2311 mWs
+2018-12-21 16:55:43,208 [simulator.py] [INFO ]  Device defc2233-0538-11e9-8a72-4c72b9c8f180 sent 6287.0 bytes in 4.5665s consuming 267.0516 mWs
+2018-12-21 16:55:43,208 [simulator.py] [INFO ]  Device defc2234-0538-11e9-8a72-4c72b9c8f180 sent 5042.5 bytes in 0.8514s consuming 61.8516 mWs
+2018-12-21 16:55:43,208 [simulator.py] [INFO ]  Device defc2235-0538-11e9-8a72-4c72b9c8f180 sent 4834.25 bytes in 0.8299s consuming 62.5404 mWs
+2018-12-21 16:55:43,208 [simulator.py] [INFO ]  Device defc2236-0538-11e9-8a72-4c72b9c8f180 sent 7528.5 bytes in 5.4488s consuming 289.5007 mWs
+2018-12-21 16:55:43,208 [simulator.py] [INFO ]  Device defc2237-0538-11e9-8a72-4c72b9c8f180 sent 6036.5 bytes in 4.0728s consuming 196.8469 mWs
+2018-12-21 16:55:43,208 [simulator.py] [INFO ]  Device defc2238-0538-11e9-8a72-4c72b9c8f180 sent 4334.75 bytes in 0.4448s consuming 43.4157 mWs
+2018-12-21 16:55:43,208 [simulator.py] [INFO ]  Device defc2239-0538-11e9-8a72-4c72b9c8f180 sent 6482.5 bytes in 4.5339s consuming 169.9879 mWs
+2018-12-21 16:55:43,208 [simulator.py] [INFO ]  Device defc223a-0538-11e9-8a72-4c72b9c8f180 sent 5691.75 bytes in 4.3225s consuming 193.3570 mWs
+2018-12-21 16:55:43,208 [simulator.py] [INFO ]  Device defc223b-0538-11e9-8a72-4c72b9c8f180 sent 6460.75 bytes in 5.1088s consuming 271.8535 mWs
+2018-12-21 16:55:43,208 [simulator.py] [INFO ]  Device defc223c-0538-11e9-8a72-4c72b9c8f180 sent 4914.0 bytes in 0.7970s consuming 56.1525 mWs
+2018-12-21 16:55:43,208 [simulator.py] [INFO ]  Device defc223d-0538-11e9-8a72-4c72b9c8f180 sent 7170.75 bytes in 5.7088s consuming 324.1136 mWs
+2018-12-21 16:55:43,209 [simulator.py] [INFO ]  Device defc223e-0538-11e9-8a72-4c72b9c8f180 sent 6687.75 bytes in 4.6746s consuming 249.6787 mWs
+2018-12-21 16:55:43,209 [simulator.py] [INFO ]  Device defc223f-0538-11e9-8a72-4c72b9c8f180 sent 6679.5 bytes in 4.4290s consuming 190.8852 mWs
+2018-12-21 16:55:43,209 [simulator.py] [INFO ]  Device defc2240-0538-11e9-8a72-4c72b9c8f180 sent 4793.75 bytes in 0.8368s consuming 59.7183 mWs
+2018-12-21 16:55:43,209 [simulator.py] [INFO ]  Device defc2241-0538-11e9-8a72-4c72b9c8f180 sent 5891.75 bytes in 1.0048s consuming 74.9876 mWs
+2018-12-21 16:55:43,209 [simulator.py] [INFO ]  Device defc2242-0538-11e9-8a72-4c72b9c8f180 sent 3891.5 bytes in 0.4061s consuming 41.1108 mWs
+2018-12-21 16:55:43,209 [simulator.py] [INFO ]  Device defc2243-0538-11e9-8a72-4c72b9c8f180 sent 5002.5 bytes in 0.8146s consuming 58.0294 mWs
+2018-12-21 16:55:43,209 [simulator.py] [INFO ]  Device defc2244-0538-11e9-8a72-4c72b9c8f180 sent 5165.5 bytes in 0.8809s consuming 65.3143 mWs
+2018-12-21 16:55:43,209 [simulator.py] [INFO ]  Device defc2245-0538-11e9-8a72-4c72b9c8f180 sent 6999.5 bytes in 4.2292s consuming 173.7047 mWs
+2018-12-21 16:55:43,209 [simulator.py] [INFO ]  Device defc2246-0538-11e9-8a72-4c72b9c8f180 sent 4214.75 bytes in 0.4342s consuming 43.6000 mWs
+2018-12-21 16:55:43,209 [simulator.py] [INFO ]  Device defc2247-0538-11e9-8a72-4c72b9c8f180 sent 6567.0 bytes in 5.2083s consuming 275.4851 mWs
+2018-12-21 16:55:43,209 [simulator.py] [INFO ]  Device defc2248-0538-11e9-8a72-4c72b9c8f180 sent 4519.25 bytes in 0.7647s consuming 54.3155 mWs
+2018-12-21 16:55:43,209 [simulator.py] [INFO ]  Device defc2249-0538-11e9-8a72-4c72b9c8f180 sent 4131.0 bytes in 0.4224s consuming 40.5860 mWs
+2018-12-21 16:55:43,210 [simulator.py] [INFO ]  Device defc224a-0538-11e9-8a72-4c72b9c8f180 sent 6754.25 bytes in 5.2763s consuming 289.5964 mWs
+2018-12-21 16:55:43,210 [simulator.py] [INFO ]  Device defc224b-0538-11e9-8a72-4c72b9c8f180 sent 7323.25 bytes in 4.7356s consuming 226.5356 mWs
+2018-12-21 16:55:43,210 [simulator.py] [INFO ]  Device defc224c-0538-11e9-8a72-4c72b9c8f180 sent 6386.0 bytes in 4.1536s consuming 146.9657 mWs
+2018-12-21 16:55:43,210 [simulator.py] [INFO ]  Device defc224d-0538-11e9-8a72-4c72b9c8f180 sent 4402.0 bytes in 0.7537s consuming 57.7404 mWs
+2018-12-21 16:55:43,210 [simulator.py] [INFO ]  Device defc224e-0538-11e9-8a72-4c72b9c8f180 sent 6836.5 bytes in 5.0026s consuming 182.1445 mWs
+2018-12-21 16:55:43,210 [simulator.py] [INFO ]  Device defc224f-0538-11e9-8a72-4c72b9c8f180 sent 6503.75 bytes in 5.2495s consuming 329.0136 mWs
+2018-12-21 16:55:43,210 [simulator.py] [INFO ]  Device defc2250-0538-11e9-8a72-4c72b9c8f180 sent 5360.0 bytes in 0.8476s consuming 56.7868 mWs
+2018-12-21 16:55:43,210 [simulator.py] [INFO ]  Device defc2251-0538-11e9-8a72-4c72b9c8f180 sent 6872.0 bytes in 4.7613s consuming 251.3770 mWs
+2018-12-21 16:55:43,210 [simulator.py] [INFO ]  Device defc2252-0538-11e9-8a72-4c72b9c8f180 sent 5768.75 bytes in 0.9310s consuming 64.3524 mWs
+2018-12-21 16:55:43,210 [simulator.py] [INFO ]  Device defc2253-0538-11e9-8a72-4c72b9c8f180 sent 7189.75 bytes in 6.3129s consuming 371.8387 mWs
+2018-12-21 16:55:43,210 [simulator.py] [INFO ]  Device defc2254-0538-11e9-8a72-4c72b9c8f180 sent 5240.0 bytes in 0.8587s consuming 63.2757 mWs
+2018-12-21 16:55:43,210 [simulator.py] [INFO ]  Device defc2255-0538-11e9-8a72-4c72b9c8f180 sent 5725.5 bytes in 0.9273s consuming 62.4047 mWs
+2018-12-21 16:55:43,211 [simulator.py] [INFO ]  Device defc2256-0538-11e9-8a72-4c72b9c8f180 sent 4565.0 bytes in 0.8100s consuming 62.3691 mWs
+2018-12-21 16:55:43,211 [simulator.py] [INFO ]  Device defc2257-0538-11e9-8a72-4c72b9c8f180 sent 4171.5 bytes in 0.4188s consuming 40.3181 mWs
+2018-12-21 16:55:43,211 [simulator.py] [INFO ]  Device defc2258-0538-11e9-8a72-4c72b9c8f180 sent 4353.75 bytes in 0.7388s consuming 54.1351 mWs
+2018-12-21 16:55:43,211 [simulator.py] [INFO ]  Device defc2259-0538-11e9-8a72-4c72b9c8f180 sent 5397.5 bytes in 0.8685s consuming 62.3297 mWs
+2018-12-21 16:55:43,211 [simulator.py] [INFO ]  Device defc225a-0538-11e9-8a72-4c72b9c8f180 sent 7323.25 bytes in 5.4929s consuming 332.9247 mWs
+2018-12-21 16:55:43,211 [simulator.py] [INFO ]  Device defc225b-0538-11e9-8a72-4c72b9c8f180 sent 4877.0 bytes in 0.7893s consuming 56.9954 mWs
+2018-12-21 16:55:43,211 [simulator.py] [INFO ]  Device defc225c-0538-11e9-8a72-4c72b9c8f180 sent 4351.0 bytes in 0.7566s consuming 55.9430 mWs
+2018-12-21 16:55:43,211 [simulator.py] [INFO ]  Device defc225d-0538-11e9-8a72-4c72b9c8f180 sent 5806.5 bytes in 4.4846s consuming 204.2715 mWs
+2018-12-21 16:55:43,211 [simulator.py] [INFO ]  Device defc225e-0538-11e9-8a72-4c72b9c8f180 sent 6986.75 bytes in 5.4619s consuming 308.9317 mWs
+2018-12-21 16:55:43,211 [simulator.py] [INFO ]  Device defc225f-0538-11e9-8a72-4c72b9c8f180 sent 7034.25 bytes in 4.7023s consuming 166.6784 mWs
+2018-12-21 16:55:43,211 [simulator.py] [INFO ]  Device defc2260-0538-11e9-8a72-4c72b9c8f180 sent 6180.0 bytes in 5.4315s consuming 331.3276 mWs
+2018-12-21 16:55:43,211 [simulator.py] [INFO ]  Device defc2261-0538-11e9-8a72-4c72b9c8f180 sent 4091.0 bytes in 0.4384s consuming 44.1763 mWs
+2018-12-21 16:55:43,212 [simulator.py] [INFO ]  Device defc2262-0538-11e9-8a72-4c72b9c8f180 sent 5202.75 bytes in 0.8786s consuming 67.5525 mWs
+2018-12-21 16:55:43,212 [simulator.py] [INFO ]  Device defc2263-0538-11e9-8a72-4c72b9c8f180 sent 5983.75 bytes in 3.9338s consuming 160.5732 mWs
+2018-12-21 16:55:43,212 [simulator.py] [INFO ]  Device defc2264-0538-11e9-8a72-4c72b9c8f180 sent 3848.5 bytes in 0.4059s consuming 39.8078 mWs
+2018-12-21 16:55:43,212 [simulator.py] [INFO ]  Device defc2265-0538-11e9-8a72-4c72b9c8f180 sent 7318.0 bytes in 5.6134s consuming 290.8973 mWs
+2018-12-21 16:55:43,212 [simulator.py] [INFO ]  Device defc2266-0538-11e9-8a72-4c72b9c8f180 sent 5860.0 bytes in 3.7691s consuming 174.6594 mWs
+2018-12-21 16:55:43,212 [simulator.py] [INFO ]  Device defc2267-0538-11e9-8a72-4c72b9c8f180 sent 7459.0 bytes in 6.0259s consuming 288.8684 mWs
+2018-12-21 16:55:43,212 [simulator.py] [INFO ]  Device defc2268-0538-11e9-8a72-4c72b9c8f180 sent 7050.75 bytes in 5.0295s consuming 259.7928 mWs
+2018-12-21 16:55:43,212 [simulator.py] [INFO ]  Device defc2269-0538-11e9-8a72-4c72b9c8f180 sent 6786.75 bytes in 5.1988s consuming 287.5369 mWs
+2018-12-21 16:55:43,212 [simulator.py] [INFO ]  Device defc226a-0538-11e9-8a72-4c72b9c8f180 sent 7050.75 bytes in 5.2659s consuming 239.1907 mWs
+2018-12-21 16:55:43,212 [simulator.py] [INFO ]  Device defc226b-0538-11e9-8a72-4c72b9c8f180 sent 5410.75 bytes in 0.9207s consuming 65.5160 mWs
+2018-12-21 16:55:43,212 [simulator.py] [INFO ]  Device defc226c-0538-11e9-8a72-4c72b9c8f180 sent 5043.0 bytes in 0.9026s consuming 70.8816 mWs
+2018-12-21 16:55:43,212 [simulator.py] [INFO ]  Device defc226d-0538-11e9-8a72-4c72b9c8f180 sent 5788.25 bytes in 4.3915s consuming 207.3238 mWs
+2018-12-21 16:55:43,213 [simulator.py] [INFO ]  Device defc226e-0538-11e9-8a72-4c72b9c8f180 sent 4476.5 bytes in 0.7279s consuming 52.0912 mWs
+2018-12-21 16:55:43,213 [simulator.py] [INFO ]  Device defc226f-0538-11e9-8a72-4c72b9c8f180 sent 5328.5 bytes in 0.8575s consuming 62.5883 mWs
+2018-12-21 16:55:43,213 [simulator.py] [INFO ]  Device defc2270-0538-11e9-8a72-4c72b9c8f180 sent 4842.5 bytes in 0.8195s consuming 60.0663 mWs
+2018-12-21 17:01:08,947 [simulator.py] [INFO ]  Scenario plotted
+2018-12-21 17:01:08,947 [simulator.py] [INFO ]  Simulation ended
