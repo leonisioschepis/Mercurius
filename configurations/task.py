@@ -57,7 +57,7 @@ def task(rnm):
                 bytes_count_orig += 2
         os.system('rm start'+str(rnm)+'.file')
         os.system('rm new'+str(rnm)+'.file')
-        return [20*ceil(20*len(new)/S), bytes_count_orig]
+        return [20*ceil(len(new)/S), bytes_count_orig]
     else:
         diffs = ed_diff.find_diffs(old,new)
         bytes_count_ed = 0

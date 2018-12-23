@@ -1,4 +1,4 @@
-import yaml, logging, os, sys
+import yaml, logging, os, sys, json
 from configurations.config_validator import validate_configurations
 from entities.scenario import Scenario
 from entities.cell import Cell
@@ -57,13 +57,19 @@ for device in devices:
 for device in devices:
     device.thread.join()
 
-
 Xs = []
 Ys = []
+i = 0
+results = {}
 for device in devices:
+    results[i] = {'coordinates': device.coordinates ,'generated_traffic': device.generated_traffic, 'energy_consumption': device.energy_consumption}
+    i += 1
     Xs.append(device.coordinates[0])
     Ys.append(device.coordinates[1])
     logging.info('Device %s sent %s bytes in %.4fs consuming %.4f mWs' %(device.id, device.generated_traffic, device.transmission_time, device.energy_consumption))
+with open('devices.json', 'w+') as f:
+    json.dump(results, f)
+
 fig, ax = plt.subplots()
 ax.add_artist(plt.Circle((0, 0), 3000, color = 'r', fill = False))
 large = plt.Circle((0, 0), 3000, color = 'r', alpha = 0.2)
