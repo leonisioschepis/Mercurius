@@ -35,5 +35,5 @@ class tcp:
             self.handshake(device)
         packet_number = int(pdu / self.mss)
         for i in range(packet_number - 1):
-            send(device, self.mss)
-        send(device,pdu % (self.mss + 1))
+            send(device, self.mss, size = pdu)
+        send(device,pdu % (self.mss + 1), size = pdu)

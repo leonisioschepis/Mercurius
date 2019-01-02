@@ -24,7 +24,7 @@ class nb_iot:
                 2: [1.1758, 0.8780, 0.6016, 0.3770, 0.2344, 0.1523]
             }
 
-    def __call__(self, device, pdu = 0):
+    def __call__(self, device, pdu = 0, size = 0):
         scenario = Scenario()
         cell = scenario.getattr('cell')
         self.COLLISION_PROBABILITY = (1/self.subcarriers)*(1 - ((self.subcarriers-1)/self.subcarriers)**scenario.getattr('num_devices'))
@@ -36,12 +36,13 @@ class nb_iot:
         if band > 2:
             return
         self.rapc(device, band, cell)
-        p = self.COLLISION_PROBABILITY + self.PER_PROBABILITY
-        kbps = choice(self.bands[band])*self.carrier_bandwidth
-        ec = self.compute_energy_cost(pdu, kbps)
+        bps = choice(self.bands[band])*self.carrier_bandwidth
+        collision_time = size/(bps*1000)
+        p = self.COLLISION_PROBABILITY*collision_time + self.PER_PROBABILITY
+        ec = self.compute_energy_cost(pdu, bps)
         if random() < p:
-            self.send(device, kbps, ec, pdu = pdu)
-        self.send(device, kbps, ec, pdu = pdu)
+            self.send(device, bps, ec, pdu = pdu)
+        self.send(device, bps, ec, pdu = pdu)
 
     def rapc(self, device, band, cell):
         n = 2

@@ -15,7 +15,7 @@ import editdistance as ed
 import os, json
 from math import ceil
 
-SYNC = 1
+SYNC = 2
 S = 512
 doc_size = 3000
 

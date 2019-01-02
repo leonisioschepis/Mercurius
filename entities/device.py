@@ -54,7 +54,7 @@ class Device:
         self.thread.start()
 
 @nb_iot
-def send(device, bps, ec, pdu = 0):
+def send(device, bps, ec, pdu = 0, size = 0):
     scenario = Scenario()
     #LOADING NETWORK LAYER
     network_layer_name = scenario.getattr('network_layer')

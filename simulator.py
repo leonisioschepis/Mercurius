@@ -5,6 +5,7 @@ from entities.cell import Cell
 from entities.device import Device
 from configurations.task import task
 from random import randint, choice
+import sys
 import matplotlib.pyplot as plt
 
 CONFIG_DIR = 'configurations'
@@ -26,7 +27,7 @@ validate_configurations()
 logging.info('Loading configurations')
 with open('%s/%s' %(CONFIG_DIR, SIM_CONFIG)) as f:
     config = yaml.load(f)
-
+config['scenario']['devices']['number'] = int(sys.argv[1])
 #Setting up the scenario
 scenario = Scenario()
 logging.debug('Number of devices: %s' %(config['scenario']['devices']['number']))
@@ -115,6 +116,6 @@ plt.grid(True)
 plt.legend([dev, antenna, small, medium, large], ["Device", "Antenna", "First Band", "Second Band", "Third Band"],
 loc='lower center', bbox_to_anchor=(0.5, 1.0), ncol=3)
 plt.savefig('scenario.png')
-plt.show()
+# plt.show()
 logging.info('Scenario plotted')
 logging.info('Simulation ended')
