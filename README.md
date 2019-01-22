@@ -24,13 +24,13 @@ Mercurius provides many outputs:
 
 ## Available Protocols 
 
-###Application Layer
+### Application Layer
 - HTML
-###Transport Layer
+### Transport Layer
 - TCP
-###Network Layer
+### Network Layer
 - IP
-###Link Layer
+### Link Layer
 - Narrow-Band IoT
 
 ## NB-IoT Simulation
