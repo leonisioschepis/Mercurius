@@ -6,7 +6,7 @@ consumption of all devices, in such a way it can also approximate the lifetime o
 ### Prerequisites
 
 1) python3
- python3-matplotlib
+2) python3-matplotlib
 
 ## Getting Started
 
@@ -18,31 +18,31 @@ consumption of all devices, in such a way it can also approximate the lifetime o
 ## Output
 
 Mercurius provides many outputs:
-• A log file containing all the events occurred during the simulation.
-• A visualization of the scenario letting users check the energy consumption and the generated traffic device by device.
-• A json file containing all the simulation data, letting users compute further analysis on data.
+- A log file containing all the events occurred during the simulation.
+- A visualization of the scenario letting users check the energy consumption and the generated traffic device by device.
+- A json file containing all the simulation data, letting users compute further analysis on data.
 
 ## Available Protocols 
 
 ###Application Layer
-• HTML
+- HTML
 ###Transport Layer
-• TCP
+- TCP
 ###Network Layer
-• IP
+- IP
 ###Link Layer
-• Narrow-Band IoT
+- Narrow-Band IoT
 
 ## NB-IoT Simulation
 The link layer was simulated taking many ideas provided by the following papers:
 
-• Izhak Rubin, Stefania Colonnese, Francesca Cuomo, Federica Calanca, and Tommaso Melodia. Mobile http-based streaming using flexible lte base station control. 
+- Izhak Rubin, Stefania Colonnese, Francesca Cuomo, Federica Calanca, and Tommaso Melodia. Mobile http-based streaming using flexible lte base station control. 
 In 2015 IEEE 16th International Symposium on, pages 1–9. IEEE, 2015.
-• Serdar Vural, Ning Wang, Gerard Foster, and Rahim Tafazolli. Success probability of multiple-preamble based single-attempt random access to mobile networks.
+- Serdar Vural, Ning Wang, Gerard Foster, and Rahim Tafazolli. Success probability of multiple-preamble based single-attempt random access to mobile networks.
 IEEE Communications Letters, pages 1–5, 2017.
-• Quang Hien Chu, Jean-Marc Conrat, and Jean-Christophe Cousin. Propagation path loss models for lte-advanced urban relaying systems. 
+- Quang Hien Chu, Jean-Marc Conrat, and Jean-Christophe Cousin. Propagation path loss models for lte-advanced urban relaying systems. 
 In Antennas and Propagation (APSURSI), 2011 IEEE International Symposium on, pages 2797–2800. IEEE, 2011.
-• Haojun Teng, Xiao Liu, Anfeng Liu, Hailan Shen, Changqin Huang, and Tian Wang. Adaptive transmission power control for reliable data forwarding in sensor based networks. Wireless Communications and Mobile Computing, 2018.
+- Haojun Teng, Xiao Liu, Anfeng Liu, Hailan Shen, Changqin Huang, and Tian Wang. Adaptive transmission power control for reliable data forwarding in sensor based networks. Wireless Communications and Mobile Computing, 2018.
 
 
 
