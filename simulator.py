@@ -116,6 +116,6 @@ plt.grid(True)
 plt.legend([dev, antenna, small, medium, large], ["Device", "Antenna", "First Band", "Second Band", "Third Band"],
 loc='lower center', bbox_to_anchor=(0.5, 1.0), ncol=3)
 plt.savefig('scenario.png')
-# plt.show()
+plt.show()
 logging.info('Scenario plotted')
 logging.info('Simulation ended')
