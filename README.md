@@ -22,6 +22,8 @@ Mercurius provides many outputs:
 - A visualization of the scenario letting users check the energy consumption and the generated traffic device by device.
 - A json file containing all the simulation data, letting users compute further analysis on data.
 
+![Scenario Example](http://url/to/img.png)
+
 ## Available Protocols 
 
 ### Application Layer
