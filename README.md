@@ -46,5 +46,6 @@ IEEE Communications Letters, pages 1–5, 2017.
 In Antennas and Propagation (APSURSI), 2011 IEEE International Symposium on, pages 2797–2800. IEEE, 2011.
 - Haojun Teng, Xiao Liu, Anfeng Liu, Hailan Shen, Changqin Huang, and Tian Wang. Adaptive transmission power control for reliable data forwarding in sensor based networks. Wireless Communications and Mobile Computing, 2018.
 
-
+## Contacts
+For helps, enhancements or bugs, you can contact Leonisio Schepis at the following email address: leonisioschepis@gmail.com .
 
