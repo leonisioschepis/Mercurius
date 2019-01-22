@@ -5,7 +5,7 @@ scenario:
   max_packet_size: 576
   time: 60                                                                      #Time expressed in minutes
   devices:
-    number: 100
+    number: 200
   application_layer:
     protocol: 'http'
   transport_layer:

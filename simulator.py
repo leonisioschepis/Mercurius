@@ -27,7 +27,7 @@ validate_configurations()
 logging.info('Loading configurations')
 with open('%s/%s' %(CONFIG_DIR, SIM_CONFIG)) as f:
     config = yaml.load(f)
-config['scenario']['devices']['number'] = int(sys.argv[1])
+# config['scenario']['devices']['number'] = int(sys.argv[1])
 #Setting up the scenario
 scenario = Scenario()
 logging.debug('Number of devices: %s' %(config['scenario']['devices']['number']))
