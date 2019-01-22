@@ -5,8 +5,8 @@ consumption of all devices, in such a way it can also approximate the lifetime o
 
 ### Prerequisites
 
-• python3
-• python3-matplotlib
+1) python3
+ python3-matplotlib
 
 ## Getting Started
 
@@ -24,13 +24,13 @@ Mercurius provides many outputs:
 
 ## Available Protocols 
 
-####Application Layer
+###Application Layer
 • HTML
-####Transport Layer
+###Transport Layer
 • TCP
-####Network Layer
+###Network Layer
 • IP
-####Link Layer
+###Link Layer
 • Narrow-Band IoT
 
 ## NB-IoT Simulation
